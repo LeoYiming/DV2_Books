@@ -16,41 +16,205 @@
 
 <body>
 
-    <h1>Between Pages and Places</h1>
-    <p>Exploring books, publishing trends and bookstore access in Malaysia.</p>
+    <div class="page-container">
 
-    <h2>Malaysia's Publishing Landscape</h2>
+        <!-- Header -->
+        <header class="hero">
+            <p class="eyebrow">FIT3179 · DATA VISUALISATION 2</p>
 
-    <div class="row">
-        <div id="chart1"></div>
-        <div id="chart2"></div>
-    </div>
+            <h1>Between Pages and Places</h1>
 
-    <div class="full">
-        <div id="chart3"></div>
-    </div>
-
-
-    <h2>Digital Readers and Consumer Preferences</h2>
-
-    <div class="row">
-        <div id="chart4"></div>
-        <div id="chart5"></div>
-    </div>
+            <p class="hero-text">
+                Exploring books, publishing trends and bookstore access in Malaysia.
+            </p>
+        </header>
 
 
-    <h2>Where Are Malaysia's Bookstores?</h2>
+        <!-- Publishing -->
+        <section class="story-section">
 
-    <div class="row">
-        <div id="chart6"></div>
-        <div id="chart7"></div>
-    </div>
+            <p class="section-number">01</p>
 
-    <div class="full">
-        <div id="chart8"></div>
+            <h2>Malaysia's Publishing Landscape</h2>
+
+            <p class="section-intro">
+                Malaysia's publishing landscape has changed considerably over the past
+                decade. This section looks at changes in book categories, publishing
+                formats and the subjects being published.
+            </p>
+
+
+            <!-- Chart 1 -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart1"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023
+                    </p>
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Changes in book categories show how publishing output has shifted over
+                time. But another important change is the format in which books are published.
+            </p>
+
+
+            <!-- Chart 2 -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart2"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023
+                    </p>
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Publishing format tells only part of the story. Looking at subject areas
+                shows what types of knowledge and content are being produced.
+            </p>
+
+
+            <!-- Chart 3 -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart3"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Digital readers -->
+        <section class="story-section">
+
+            <p class="section-number">02</p>
+
+            <h2>Digital Readers and Consumer Preferences</h2>
+
+            <p class="section-intro">
+                Publishing data tells us what books are produced, but readers determine
+                what is actually consumed. This section looks at who uses e-books and
+                how digital readers spend.
+            </p>
+
+
+            <!-- Chart 4 -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart4"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023
+                    </p>
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Reader age gives an idea of who is using digital books. Spending patterns
+                provide another view of how these readers behave as consumers.
+            </p>
+
+
+            <!-- Chart 5 -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart5"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Bookstores -->
+        <section class="story-section">
+
+            <p class="section-number">03</p>
+
+            <h2>Where Are Malaysia's Bookstores?</h2>
+
+            <p class="section-intro">
+                Digital reading is growing, but physical access to books still depends
+                on place. These maps examine individual bookstore locations, local
+                concentration and differences between Malaysian states.
+            </p>
+
+
+            <!-- Dot map -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart6"></div>
+
+                    <p class="source">
+                        Source: OpenStreetMap. State boundaries: Department of Statistics Malaysia.
+                    </p>
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Individual locations reveal the national distribution, but dense urban
+                areas are difficult to compare from points alone. A bin map makes local
+                concentration easier to see.
+            </p>
+
+
+            <!-- Bin map -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart7"></div>
+
+                    <p class="source">
+                        Source: OpenStreetMap. State boundaries: Department of Statistics Malaysia.
+                    </p>
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Local concentration provides a detailed view of the Klang Valley.
+                Comparing bookstore counts by state gives a broader national perspective.
+            </p>
+
+
+            <!-- Choropleth map -->
+            <div class="chart-card">
+                <div class="chart-content">
+                    <div id="chart8"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia, National Book Data Report 2022/2023.
+                        State boundaries: Department of Statistics Malaysia.
+                    </p>
+                </div>
+            </div>
+
+            <p class="data-note">
+                Note: OpenStreetMap locations represent bookstores recorded in the platform
+                and should not be interpreted as a complete census of all bookstores in Malaysia.
+            </p>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer>
+            <p>FIT3179 Data Visualisation 2 · 2026</p>
+        </footer>
+
     </div>
 
     <script src="vega_lite_vis.js"></script>
 
 </body>
+
 </html>

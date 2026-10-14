@@ -1,33 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    max-width: 1200px;
-    margin: auto;
-    padding: 30px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eef4f8;
+  color: #222222;
+  line-height: 1.5;
 }
 
-h1 {
-    font-size: 36px;
+/* Page */
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px 50px 32px;
 }
 
-h2 {
-    margin-top: 60px;
-    margin-bottom: 25px;
+/* Header */
+.hero {
+  padding: 70px 0 55px 0;
+  border-bottom: 1px solid #d8e1e7;
 }
 
-.row {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+.eyebrow {
+  margin: 0 0 12px 0;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #5f7f95;
 }
 
-.full {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.1;
+  color: #1f1f1f;
 }
 
+.hero-text {
+  max-width: 650px;
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 18px;
+  color: #56636c;
+}
+
+/* Sections */
+.story-section {
+  padding: 65px 0 20px 0;
+}
+
+.section-number {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #5f7f95;
+}
+
+.story-section h2 {
+  margin: 0 0 12px 0;
+  font-size: 32px;
+  color: #222222;
+}
+
+.section-intro {
+  max-width: 780px;
+  margin: 0 0 35px 0;
+  font-size: 16px;
+  color: #5f6b73;
+}
+
+/* Chart cards */
+.chart-card {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #dce5eb;
+  border-radius: 10px;
+  padding: 32px;
+  margin-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 0;
+  overflow: hidden;
+}
+
+.chart-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Sources */
+.source {
+  width: 100%;
+  max-width: 850px;
+  margin: 18px 0 0 0;
+  padding-top: 12px;
+  border-top: 1px solid #e7edf1;
+  font-size: 12px;
+  color: #7b878e;
+}
+
+/* Story transitions */
+.transition-text {
+  max-width: 760px;
+  margin: 6px auto 32px auto;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #56636c;
+}
+
+/* Data note */
+.data-note {
+  max-width: 760px;
+  margin: 8px auto 0 auto;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #73808a;
+}
+
+/* Vega charts */
 .vega-embed {
-    max-width: 100%;
+  max-width: 100%;
+}
+
+.vega-embed canvas,
+.vega-embed svg {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 25px 0;
+  border-top: 1px solid #d8e1e7;
+  font-size: 13px;
+  color: #6d7a82;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .page-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .story-section h2 {
+    font-size: 27px;
+  }
+
+  .section-intro {
+    font-size: 15px;
+  }
+
+  .chart-card {
+    padding: 18px;
+  }
+
+  .transition-text {
+    font-size: 14px;
+  }
 }
