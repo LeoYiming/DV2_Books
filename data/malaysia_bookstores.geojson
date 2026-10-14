@@ -1,0 +1,4813 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-13T14:42:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/259682244",
+        "building": "yes",
+        "name": "SBC Stationary",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6197195,
+          1.6415126
+        ]
+      },
+      "id": "way/259682244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/335057129",
+        "building": "yes",
+        "name": "Pustaka Jitra",
+        "shop": "books",
+        "source": "Mapbox",
+        "source:name": "survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4182522,
+          6.2604941
+        ]
+      },
+      "id": "way/335057129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/390278261",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Pustaka Rihaz",
+        "office": "company",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.419427,
+          6.2439173
+        ]
+      },
+      "id": "way/390278261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/721882258",
+        "building": "yes",
+        "name": "Wisma Palaniappa",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7385261,
+          4.8493379
+        ]
+      },
+      "id": "way/721882258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/761211853",
+        "addr:housenumber": "198",
+        "addr:street": "Jalan Tai Fi Tong",
+        "building": "yes",
+        "name": "健健书局",
+        "name:ms": "Perniagaan Ken Ken",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1008171,
+          4.6493889
+        ]
+      },
+      "id": "way/761211853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1017548657",
+        "addr:housenumber": "2",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Gerakbudaya",
+        "name:zh": "文运书坊",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6461374,
+          3.1117784
+        ]
+      },
+      "id": "way/1017548657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1079253090",
+        "building": "terrace",
+        "building:levels": "2",
+        "name": "Children's World",
+        "name:en": "Children's World",
+        "operator": "Children's World Sdn. Bhd.",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3341186,
+          5.4144614
+        ]
+      },
+      "id": "way/1079253090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1123821361",
+        "addr:city": "Shah Alam",
+        "addr:postcode": "40300",
+        "addr:street": "Jalan Timun C 24/C",
+        "building": "retail",
+        "name": "Alesha Book Centre",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5199713,
+          3.0371398
+        ]
+      },
+      "id": "way/1123821361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1246567904",
+        "name": "Kedai Buku Syikah Enterprise",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5623933,
+          3.2098551
+        ]
+      },
+      "id": "node/1246567904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1270301109",
+        "addr:street": "Jalan Kebun Nenas 7A/KS 8",
+        "building": "retail",
+        "name": "Kedai Buku & Alat Tulis",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5185078,
+          2.9586726
+        ]
+      },
+      "id": "way/1270301109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1442576803",
+        "building": "yes",
+        "name": "Koperasi",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "shop": "books",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2154955,
+          6.4376706
+        ]
+      },
+      "id": "way/1442576803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1534178896",
+        "name": "Su Fes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.657675,
+          3.0860482
+        ]
+      },
+      "id": "node/1534178896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1658902976",
+        "name": "Comic Corner",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6163316,
+          3.1258332
+        ]
+      },
+      "id": "node/1658902976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1800417868",
+        "name": "Readers Store Bookmart and Stationery",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.623495,
+          3.2219229
+        ]
+      },
+      "id": "node/1800417868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1865215085",
+        "name": "Smart Tech",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4021526,
+          3.0086822
+        ]
+      },
+      "id": "node/1865215085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2170836126",
+        "name": "Second Hand Books",
+        "name:en": "Second Hand Books",
+        "second_hand": "yes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2489811,
+          2.1970638
+        ]
+      },
+      "id": "node/2170836126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2268228002",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1181177,
+          5.8406219
+        ]
+      },
+      "id": "node/2268228002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2483150047",
+        "addr:city": "Penampang, Kota Kinabalu, Sabah",
+        "addr:housename": "Plaza Utama Penampang",
+        "addr:housenumber": "Block B, Lot 15-G, Ground Floor",
+        "addr:postcode": "89500",
+        "addr:street": "Jalan Pintas Penampang",
+        "name": "童梦园 iZ Wonderland",
+        "note": "Fax : +6088731657",
+        "phone": "+6088731967",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0770302,
+          5.9262669
+        ]
+      },
+      "id": "node/2483150047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2505681035",
+        "name": "MPH",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6718513,
+          3.1327211
+        ]
+      },
+      "id": "node/2505681035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520790194",
+        "name": "Pustaka Union",
+        "shop": "books",
+        "source": "Local knowledge, near accurate position from personal GPS tracks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3729684,
+          6.128087
+        ]
+      },
+      "id": "node/2520790194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2563992015",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level": "2",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6560764,
+          1.4816923
+        ]
+      },
+      "id": "node/2563992015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2678309306",
+        "addr:housenumber": "6A",
+        "addr:postcode": "59100",
+        "addr:street": "Lorong Ara Kiri 3",
+        "name": "Boardgame Depot",
+        "shop": "books",
+        "website": "http://www.bgdepotbangsar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6688896,
+          3.1279434
+        ]
+      },
+      "id": "node/2678309306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2868495376",
+        "name": "Rashida Rashid Enterprise",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4822737,
+          3.1441122
+        ]
+      },
+      "id": "node/2868495376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2893354463",
+        "name": "Canaanland",
+        "name:en": "Canaanland",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.589989,
+          3.1139052
+        ]
+      },
+      "id": "node/2893354463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2902927101",
+        "name": "Kedai Buku Teras",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5574063,
+          3.1004941
+        ]
+      },
+      "id": "node/2902927101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2993436154",
+        "name": "Shadani Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5078644,
+          5.6524176
+        ]
+      },
+      "id": "node/2993436154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3327139816",
+        "name": "Pustaka Darussalam Sendirian Berhad",
+        "shop": "books",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3717569,
+          6.1222242
+        ]
+      },
+      "id": "node/3327139816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3473326105",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4476709,
+          4.4413839
+        ]
+      },
+      "id": "node/3473326105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3498480601",
+        "name": "Kedai Buku Banggol",
+        "name:ms": "Kedai Buku Banggol",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.0913596,
+          5.3468524
+        ]
+      },
+      "id": "node/3498480601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3592093435",
+        "name": "Kedai Alat Tulis HUH GEEN",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5370818,
+          5.440017
+        ]
+      },
+      "id": "node/3592093435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3614650161",
+        "addr:city": "Alam Damai Industrial Park",
+        "addr:housenumber": "2",
+        "addr:postcode": "56000",
+        "addr:street": "Jalan Damai Puspa 2",
+        "name": "Odonata Publishing Sdn Bhd",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "operator": "Odonata Publishing Sdn Bhd",
+        "phone": "+60391011179",
+        "shop": "books",
+        "website": "https://www.odonata.com.my/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7457534,
+          3.0556387
+        ]
+      },
+      "id": "node/3614650161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3767152937",
+        "name": "Wakaf Bharu Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2019817,
+          6.1214767
+        ]
+      },
+      "id": "node/3767152937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3782372110",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.95711,
+          4.3573731
+        ]
+      },
+      "id": "node/3782372110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874594899",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2490227,
+          2.1886493
+        ]
+      },
+      "id": "node/3874594899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3874594900",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2473883,
+          2.2185988
+        ]
+      },
+      "id": "node/3874594900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3878854102",
+        "name": "MPH Bookstore",
+        "name:en": "MPH Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2492645,
+          2.1884715
+        ]
+      },
+      "id": "node/3878854102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3929296728",
+        "name": "Pustaka Union (Cawangan Changloon)",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4295915,
+          6.4348933
+        ]
+      },
+      "id": "node/3929296728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3940096842",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "phone": "+6047336644",
+        "shop": "books",
+        "website": "https://www.popular.com.my/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3428128,
+          6.1282906
+        ]
+      },
+      "id": "node/3940096842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3944699319",
+        "name": "Hasani Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4827751,
+          5.8177249
+        ]
+      },
+      "id": "node/3944699319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3944699339",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4827508,
+          5.8179283
+        ]
+      },
+      "id": "node/3944699339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4116967901",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.369856,
+          6.1181156
+        ]
+      },
+      "id": "node/4116967901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4116967902",
+        "alt_name": "Popular Alor Setar Star Parade",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "phone": "+60 4 734 02 36; +60 4 734 02 37",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3731698,
+          6.1224827
+        ]
+      },
+      "id": "node/4116967902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4116967903",
+        "brand": "Pustaka Union",
+        "name": "Pustaka Union",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3697809,
+          6.1181076
+        ]
+      },
+      "id": "node/4116967903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4116967908",
+        "description": "Comics",
+        "name": "Wimaju",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3698479,
+          6.1182223
+        ]
+      },
+      "id": "node/4116967908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192301688",
+        "name": "Gallery Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4200987,
+          6.242969
+        ]
+      },
+      "id": "node/4192301688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4192301695",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4161002,
+          6.2606276
+        ]
+      },
+      "id": "node/4192301695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224005791",
+        "addr:city": "Kuala Lumpur",
+        "addr:place": "Section 10 Wangsa Maju",
+        "name": "Kedai Buku ITBM",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7357407,
+          3.189898
+        ]
+      },
+      "id": "node/4224005791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4226298792",
+        "name": "heng sing",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3693064,
+          1.5511908
+        ]
+      },
+      "id": "node/4226298792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4236972391",
+        "name": "Logistic Berjaya",
+        "office": "company",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7386757,
+          3.1206674
+        ]
+      },
+      "id": "node/4236972391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4255870790",
+        "addr:housenumber": "C6 85E",
+        "addr:postcode": "01000",
+        "addr:street": "Jalan Padang Behor",
+        "email": "arenakakibuku@gmail.com",
+        "name": "Arena Kakibuku",
+        "opening_hours": "Mo-Fr 10:00-17:00",
+        "operator": "Zulkarnain A Aziz",
+        "phone": "0174979960",
+        "shop": "books",
+        "website": "https://www.facebook.com/arenakakibuku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.2138619,
+          6.4360476
+        ]
+      },
+      "id": "node/4255870790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4263675290",
+        "addr:housenumber": "158",
+        "addr:street": "Jalan Tun H.S. Lee",
+        "name": "Pusat Buku Manjusri",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6967017,
+          3.144542
+        ]
+      },
+      "id": "node/4263675290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4293178698",
+        "name": "Jasema Enterprise",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6227616,
+          3.1536502
+        ]
+      },
+      "id": "node/4293178698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4295565055",
+        "name": "Ibrahim Book Store",
+        "name:en": "Ibrahim Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4891865,
+          5.6427839
+        ]
+      },
+      "id": "node/4295565055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297558240",
+        "name": "Pustaka Intan",
+        "name:ms": "Pustaka Intan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.095181,
+          5.3564845
+        ]
+      },
+      "id": "node/4297558240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4297558241",
+        "name": "SMO",
+        "name:en": "SMO",
+        "name:ms": "SMO",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.095017,
+          5.3569658
+        ]
+      },
+      "id": "node/4297558241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4321133091",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6929971,
+          3.1665062
+        ]
+      },
+      "id": "node/4321133091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4321133092",
+        "level": "2",
+        "name": "Borders",
+        "name:en": "Borders",
+        "name:ms": "Borders",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7003308,
+          3.1604035
+        ]
+      },
+      "id": "node/4321133092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4323547891",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3090876,
+          5.4371059
+        ]
+      },
+      "id": "node/4323547891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4323551389",
+        "addr:city": "George Town",
+        "addr:floor": "3",
+        "addr:full": "170-03-53A/55,3rd Floor, Gurney Plaza, Gurney Drive, 10250 Penang",
+        "addr:postcode": "10250",
+        "air_conditioning": "yes",
+        "branch": "Gurney Plaza",
+        "brand": "MPH",
+        "level": "3",
+        "name": "MPH Bookstores",
+        "shop": "books",
+        "website": "https://www.mphonline.com/",
+        "wikidata": "Q6717282",
+        "wikipedia": "en:MPH Group"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.309616,
+          5.4377926
+        ]
+      },
+      "id": "node/4323551389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4329526704",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3663924,
+          6.1246548
+        ]
+      },
+      "id": "node/4329526704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4329526708",
+        "name": "Pustaka Darussalam Sendirian Berhad",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3555015,
+          6.1421553
+        ]
+      },
+      "id": "node/4329526708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4331206691",
+        "name": "Hasani Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3658032,
+          6.092817
+        ]
+      },
+      "id": "node/4331206691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4427585183",
+        "level": "1",
+        "name": "Pustaka Nilai",
+        "name:ms": "Pustaka Nilai",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7986388,
+          2.8017388
+        ]
+      },
+      "id": "node/4427585183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4434688351",
+        "addr:housenumber": "141",
+        "name": "Pustaka Mukmin",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6965745,
+          3.1541558
+        ]
+      },
+      "id": "node/4434688351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4466583433",
+        "name": "FRIM Bookshop",
+        "name:en": "FRIM Bookshop",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6316443,
+          3.2346962
+        ]
+      },
+      "id": "node/4466583433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4509767189",
+        "name": "smobookstores",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4082196,
+          5.8356571
+        ]
+      },
+      "id": "node/4509767189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4523224593",
+        "name": "SMO Book Stores",
+        "name:en": "SMO Book Stores",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2795,
+          6.0994826
+        ]
+      },
+      "id": "node/4523224593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4541585191",
+        "name": "Toko Buku Osman",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3047013,
+          6.3937768
+        ]
+      },
+      "id": "node/4541585191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544099002",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.671617,
+          1.5180586
+        ]
+      },
+      "id": "node/4544099002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4548672289",
+        "name": "smobookstores",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3723937/2987"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4952996,
+          5.7376974
+        ]
+      },
+      "id": "node/4548672289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568872190",
+        "name": "Kawan Shop",
+        "name:en": "Kawan Shop",
+        "opening_hours": "Mo-Fr 10:30-18:30",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3389724,
+          5.4158835
+        ]
+      },
+      "id": "node/4568872190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4571593855",
+        "name": "Pustaka Wira Maju",
+        "shop": "books",
+        "source": "https://www.mapillary.com/map/im/QtvBN6ShScTPdFT1MV5V6Q"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4298513,
+          5.5149933
+        ]
+      },
+      "id": "node/4571593855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674078488",
+        "name": "Syarikat Pustaka Abdul Rahman",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.55556,
+          5.3708916
+        ]
+      },
+      "id": "node/4674078488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4756642354",
+        "addr:city": "Bandar Baru Bangi",
+        "addr:postcode": "43650",
+        "addr:street": "Jalan 7/7A",
+        "air_conditioning": "yes",
+        "books": "religion;textbook;adults;children",
+        "name": "Pustaka Rakyat",
+        "payment:cash": "yes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.774453,
+          2.9684947
+        ]
+      },
+      "id": "node/4756642354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4837260112",
+        "addr:city": "Gua Musang",
+        "name": "Kedai Buku & Alat Tulis Ash-Shafie",
+        "name:en": "Ash-Shafie Stationery & Book Store",
+        "name:ms": "Kedai Buku & Alat Tulis Ash-Shafie",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9624051,
+          4.8757075
+        ]
+      },
+      "id": "node/4837260112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4861632623",
+        "addr:city": "Port Dickson",
+        "addr:street": "Jalan Bandar",
+        "name": "Buku & Alat Tulis SBC",
+        "name:en": "SBC Books & Stationery",
+        "opening_hours": "10:00-18:30; Su off",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7958626,
+          2.5245958
+        ]
+      },
+      "id": "node/4861632623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865832337",
+        "addr:city": "Bandar Baru Bangi",
+        "addr:street": "Jalan Medan Pusat Bandar 7",
+        "name": "DuBook Press",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7566484,
+          2.961086
+        ]
+      },
+      "id": "node/4865832337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4900680087",
+        "addr:city": "Seremban",
+        "addr:street": "Jalan Dato Sheikh Ahmad",
+        "name": "SBC Books & Stationery",
+        "shop": "books",
+        "stationery": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9385134,
+          2.7241645
+        ]
+      },
+      "id": "node/4900680087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4900680102",
+        "addr:city": "Seremban",
+        "addr:street": "Jalan Dato Sheikh Ahmad",
+        "check_date": "2025-01-03",
+        "name": "Pusat Buku Sinaran",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9399295,
+          2.7245168
+        ]
+      },
+      "id": "node/4900680102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4960704418",
+        "addr:city": "Seremban",
+        "addr:place": "Giant Senawang",
+        "name": "MPH Bookstores",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9849163,
+          2.7021064
+        ]
+      },
+      "id": "node/4960704418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4969228203",
+        "addr:city": "Ampang Jaya",
+        "addr:place": "Tesco Ampang",
+        "branch": "Book Store",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7414665,
+          3.1442567
+        ]
+      },
+      "id": "node/4969228203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4987992422",
+        "addr:street": "Jalan Masjid Kapitan Keling",
+        "name": "Gerak Budaya Bookshop",
+        "name:en": "Gerak Budaya Bookshop",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3380143,
+          5.4174527
+        ]
+      },
+      "id": "node/4987992422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4987992521",
+        "addr:street": "Jalan Masjid Kapitan Keling",
+        "name": "Areca Books",
+        "name:en": "Areca Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3392393,
+          5.4187406
+        ]
+      },
+      "id": "node/4987992521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5004283227",
+        "name": "Parvez Book Store",
+        "name:en": "Parvez Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3345611,
+          5.4190277
+        ]
+      },
+      "id": "node/5004283227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5027102166",
+        "addr:city": "Kuala Kangsar",
+        "addr:street": "Jalan Kangsar",
+        "name": "Kedai Buku Weng Hwa",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9407093,
+          4.7695905
+        ]
+      },
+      "id": "node/5027102166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5042155297",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4756758,
+          5.6228887
+        ]
+      },
+      "id": "node/5042155297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5049742538",
+        "name": "Hasani Edar Sdn Bhd",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4824966,
+          5.6396063
+        ]
+      },
+      "id": "node/5049742538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116361341",
+        "name": "Abdul Majeed & Farook Wholesale Emporium",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6118768,
+          2.5819922
+        ]
+      },
+      "id": "node/5116361341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116361343",
+        "name": "Yuen Siong",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.6119277,
+          2.5819963
+        ]
+      },
+      "id": "node/5116361343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5139100584",
+        "branch": "Book Store",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "level": "0",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books",
+        "source": "local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9121633,
+          2.7008929
+        ]
+      },
+      "id": "node/5139100584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5183652198",
+        "name": "SMO",
+        "name:en": "SMO",
+        "name:ms": "SMO",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4172302,
+          4.7572654
+        ]
+      },
+      "id": "node/5183652198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5258285458",
+        "name": "Kedai Buku Liang Huat 连发书店",
+        "name:zh": "连发书店",
+        "shop": "books",
+        "source": "https://www.mapillary.com/app/?pKey=S5VdKCHx9gigj9aD7N0x11&focus=photo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.444402,
+          5.3588931
+        ]
+      },
+      "id": "node/5258285458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5265664516",
+        "name": "Pustaka Rakyat",
+        "name:ms": "Pustaka Rakyat",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7003764,
+          3.2364722
+        ]
+      },
+      "id": "node/5265664516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5271673599",
+        "addr:housenumber": "S39",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "level": "2",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4783362,
+          5.3206919
+        ]
+      },
+      "id": "node/5271673599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5414340023",
+        "name": "MPH Mid Valley",
+        "name:en": "MPH Mid Valley",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6764405,
+          3.1171509
+        ]
+      },
+      "id": "node/5414340023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5414423873",
+        "name": "MPH Melawati",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7486402,
+          3.2111166
+        ]
+      },
+      "id": "node/5414423873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5428495724",
+        "addr:housenumber": "53-56",
+        "addr:street": "Jalan Tun Abdul Aziz",
+        "name": "Cziplee Books & Stationery (Kajang)",
+        "name:en": "Cziplee Books & Stationery (Kajang)",
+        "phone": "0387370699",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7899737,
+          2.9912813
+        ]
+      },
+      "id": "node/5428495724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436981461",
+        "name": "CCY Bookstore",
+        "name:en": "CCY Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5213437,
+          3.6803364
+        ]
+      },
+      "id": "node/5436981461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5626583822",
+        "name": "Magnet",
+        "name:en": "Magnet",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3339571,
+          5.418769
+        ]
+      },
+      "id": "node/5626583822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5669025790",
+        "addr:city": "Cyberjaya",
+        "name": "BookXcess",
+        "name:en": "BookXcess",
+        "opening_hours": "24/7",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6366493,
+          2.9197169
+        ]
+      },
+      "id": "node/5669025790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5732917821",
+        "name": "me books nooks",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6389963,
+          1.3912809
+        ]
+      },
+      "id": "node/5732917821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5740442563",
+        "name": "Kedai Buku Banggol",
+        "name:en": "Banggol Book Shop",
+        "name:ms": "Kedai Buku Banggol",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1226022,
+          5.315019
+        ]
+      },
+      "id": "node/5740442563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5913455555",
+        "addr:city": "Kuala Lumpur",
+        "addr:place": "Nu Sentral",
+        "level": "4",
+        "name": "MPH NU Sentral",
+        "name:en": "MPH NU Sentral",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6875392,
+          3.1336679
+        ]
+      },
+      "id": "node/5913455555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6155751385",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2673254,
+          3.3215653
+        ]
+      },
+      "id": "node/6155751385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6172547234",
+        "name": "Sun Enterprise",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0782268,
+          5.8565349
+        ]
+      },
+      "id": "node/6172547234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6202889387",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4717292,
+          3.0602587
+        ]
+      },
+      "id": "node/6202889387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6250034677",
+        "level": "3",
+        "name": "Book2U",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3650141,
+          5.3949716
+        ]
+      },
+      "id": "node/6250034677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6251561781",
+        "name": "Book Talk",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.636624,
+          1.521808
+        ]
+      },
+      "id": "node/6251561781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6263600285",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "level": "-1",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3063734,
+          5.3348468
+        ]
+      },
+      "id": "node/6263600285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6349977615",
+        "level": "0",
+        "name": "See Boon Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.0093133,
+          4.7530946
+        ]
+      },
+      "id": "node/6349977615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6400540285",
+        "addr:city": "Kuala Lumpur",
+        "addr:housenumber": "Lot 406-408 & 429 & 430",
+        "addr:postcode": "50088",
+        "brand": "Kinokuniya",
+        "brand:wikidata": "Q703227",
+        "layer": "4",
+        "level": "4",
+        "name": "Kinokuniya",
+        "operator": "Kinokuniya Book Stores (M) Sdn Bhd",
+        "phone": "+60321648133",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7126067,
+          3.1576746
+        ]
+      },
+      "id": "node/6400540285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6405376088",
+        "addr:city": "George Town",
+        "addr:housenumber": "120",
+        "addr:street": "Lebuh Acheh",
+        "name": "Areca Books",
+        "name:en": "Areca Books",
+        "shop": "books",
+        "website": "https://arecabooks.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3363637,
+          5.4149408
+        ]
+      },
+      "id": "node/6405376088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6418277109",
+        "addr:city": "Bukit Mertajam",
+        "addr:housenumber": "3096",
+        "addr:postcode": "14000",
+        "addr:street": "Jalan Rozhan",
+        "fax": "+6045521207",
+        "name": "Syarikat Adam",
+        "phone": "+6045516786",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.480895,
+          5.3328918
+        ]
+      },
+      "id": "node/6418277109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6431058252",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3662421,
+          5.6694347
+        ]
+      },
+      "id": "node/6431058252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6431058253",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3662261,
+          5.6695
+        ]
+      },
+      "id": "node/6431058253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6447374787",
+        "name": "book xcess",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0773666,
+          4.5964449
+        ]
+      },
+      "id": "node/6447374787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568098176",
+        "name": "SMO",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1362557,
+          5.3297374
+        ]
+      },
+      "id": "node/6568098176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6583628940",
+        "name": "Amazing R Station",
+        "name:en": "Amazing R Station",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1450789,
+          4.3270019
+        ]
+      },
+      "id": "node/6583628940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6598596697",
+        "name": "Kedai Buku Wen Yuan",
+        "name:ms": "Kedai Buku Wen Yuan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1486125,
+          4.3239144
+        ]
+      },
+      "id": "node/6598596697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6612170774",
+        "name": "Minerva Book Store Sdn. Bhd.",
+        "phone": "+60 3-2692 4416",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6964514,
+          3.153739
+        ]
+      },
+      "id": "node/6612170774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6624667384",
+        "name": "MBS Book Store (Men Men)",
+        "name:en": "MBS Book Store (Men Men)",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4222317,
+          4.2337306
+        ]
+      },
+      "id": "node/6624667384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6631752972",
+        "name": "Pustaka Munirah",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4159959,
+          4.2370571
+        ]
+      },
+      "id": "node/6631752972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6685654485",
+        "level": "6-7",
+        "level:ref": "L7-L8",
+        "name": "BookXcess",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3105929,
+          5.4354163
+        ]
+      },
+      "id": "node/6685654485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6709545585",
+        "name": "Mubarak",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.077169,
+          4.5964359
+        ]
+      },
+      "id": "node/6709545585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6792255535",
+        "name": "Bintang Buku Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7389233,
+          4.8519876
+        ]
+      },
+      "id": "node/6792255535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6917916665",
+        "name": "Ibnu Salleh",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2497554,
+          2.2188287
+        ]
+      },
+      "id": "node/6917916665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7047210554",
+        "addr:housenumber": "250A",
+        "addr:place": "Jitra 2",
+        "addr:postcode": "06000",
+        "addr:street": "Jalan PJ 2/2",
+        "name": "Hasani Books",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4190731,
+          6.2563914
+        ]
+      },
+      "id": "node/7047210554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7083568470",
+        "addr:city": "Butterworth",
+        "addr:housenumber": "5",
+        "addr:postcode": "12000",
+        "addr:street": "Lorong Bagan Luar 3",
+        "level": "0",
+        "name": "Kedai Buku DBP",
+        "operator": "Syarikat Harfa Sdn. Bhd.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3704176,
+          5.4103589
+        ]
+      },
+      "id": "node/7083568470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7085380684",
+        "name": "Pustaka Rawang",
+        "name:en": "Pustaka Rawang",
+        "shop": "books",
+        "source": "https://www.mapillary.com/app/?pKey=3057437104532459&focus=photo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7214884,
+          2.9451493
+        ]
+      },
+      "id": "node/7085380684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7092610876",
+        "level": "-1",
+        "name": "MPH Bookstores",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.344273,
+          1.5588642
+        ]
+      },
+      "id": "node/7092610876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7093224302",
+        "name": "Pustaka Seri Intan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.1027359,
+          5.2309461
+        ]
+      },
+      "id": "node/7093224302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7106432089",
+        "addr:city": "Kuala Lumpur",
+        "addr:housenumber": "63A",
+        "addr:postcode": "50000",
+        "addr:street": "Jalan Sultan",
+        "name": "KL Commercial Book",
+        "name:en": "KL Commercial Book",
+        "name:zh": "商务印书馆（马）有限公司",
+        "name:zh-Hans": "商务印书馆（马）有限公司",
+        "name:zh-Hant": "商務印書館（馬）有限公司",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6987376,
+          3.1434068
+        ]
+      },
+      "id": "node/7106432089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7329084946",
+        "alt_name": "MPH @ Souq",
+        "brand": "MPH Bookstores Sdn Bhd",
+        "fax": "+60 4 730 05 04",
+        "name": "MPH",
+        "phone": "+60 4 730 07 09",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3889331,
+          6.1348758
+        ]
+      },
+      "id": "node/7329084946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417319894",
+        "name": "Kedai Alat Tuus TAlent Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7136966,
+          1.5456406
+        ]
+      },
+      "id": "node/7417319894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7432915006",
+        "name": "Book Talk",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7441781,
+          1.5703401
+        ]
+      },
+      "id": "node/7432915006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7515296662",
+        "addr:city": "SIBU",
+        "addr:postcode": "96000",
+        "addr:street": "Jalan Kpg Datuk",
+        "name": "RICHMOUNT BOOK CENTRE",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8223996,
+          2.2937077
+        ]
+      },
+      "id": "node/7515296662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7538072445",
+        "addr:city": "SIBU",
+        "addr:housenumber": "22",
+        "addr:postcode": "96000",
+        "addr:street": "LORONG DR WONG SOON KAI",
+        "name": "Wang Fah General Trading",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.8426856,
+          2.3004548
+        ]
+      },
+      "id": "node/7538072445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7561585743",
+        "name": "Hasani Books Amanjaya",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2286742/901/track-info"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5085275,
+          5.6726677
+        ]
+      },
+      "id": "node/7561585743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7653132502",
+        "name": "Syarikat Adam",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2710062/4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4307801,
+          5.5150609
+        ]
+      },
+      "id": "node/7653132502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7693403914",
+        "addr:housenumber": "121",
+        "name": "Kedai Buku Chee Ming",
+        "name:ms": "Kedai Buku Chee Ming",
+        "shop": "books",
+        "source": "Mapillary",
+        "source:date": "2017-07-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.152126,
+          4.313992
+        ]
+      },
+      "id": "node/7693403914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7818459997",
+        "name": "Kedai Buku E-books",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2094702/12/track-info",
+        "source:date": "2020-03-26"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6187252,
+          1.6413661
+        ]
+      },
+      "id": "node/7818459997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7978200586",
+        "name": "MPH",
+        "shop": "books",
+        "survey:date": "2020-10-06"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3576735,
+          1.5351968
+        ]
+      },
+      "id": "node/7978200586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8421910511",
+        "name": "Toko Buku Cahaya Baru",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3414312,
+          6.1298421
+        ]
+      },
+      "id": "node/8421910511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8762101773",
+        "name": "Hasani Book",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2727134/106"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5468678,
+          5.3853135
+        ]
+      },
+      "id": "node/8762101773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8768954940",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2277714/333"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.0618286,
+          4.5812488
+        ]
+      },
+      "id": "node/8768954940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8812315011",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3665166,
+          6.125043
+        ]
+      },
+      "id": "node/8812315011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8883218349",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/2790666/657"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7506915,
+          3.1579401
+        ]
+      },
+      "id": "node/8883218349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8893642656",
+        "name": "Kedai Buku Wan Ariffin Sdn. Bhd.",
+        "name:ms": "Kedai Buku Wan Ariffin Sdn. Bhd.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4213648,
+          4.7704323
+        ]
+      },
+      "id": "node/8893642656"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8927820500",
+        "name": "smobookstores",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3729785/280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1678961,
+          6.1853399
+        ]
+      },
+      "id": "node/8927820500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929779510",
+        "addr:housenumber": "PT 159",
+        "name": "Kedai Buku Shanghai",
+        "name:zh": "上海书局",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3730413/261"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2359032,
+          6.127672
+        ]
+      },
+      "id": "node/8929779510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929822556",
+        "name": "smobookstores",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3730425/64"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2399481,
+          6.1281986
+        ]
+      },
+      "id": "node/8929822556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8937435031",
+        "name": "Hasani Books & Stationery",
+        "shop": "books",
+        "source": "https://www.mapillary.com/app/?pKey=381079696705899"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7277832,
+          3.1986566
+        ]
+      },
+      "id": "node/8937435031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8940338538",
+        "name": "smobookstores",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3730341/123"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.4039678,
+          5.8294952
+        ]
+      },
+      "id": "node/8940338538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8962240405",
+        "name": "smobookstores",
+        "shop": "books",
+        "source": "https://openstreetcam.org/details/3735473/42"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2832285,
+          6.1638911
+        ]
+      },
+      "id": "node/8962240405"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9007205459",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3500164,
+          3.4841807
+        ]
+      },
+      "id": "node/9007205459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9007228744",
+        "name": "MBS Bookstore",
+        "name:en": "MBS Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.3496996,
+          3.4843512
+        ]
+      },
+      "id": "node/9007228744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223854460",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "level": "2",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6054832,
+          3.0731095
+        ]
+      },
+      "id": "node/9223854460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9321139289",
+        "name": "Monalisa",
+        "name:zh": "御书阁",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6714473,
+          3.0517764
+        ]
+      },
+      "id": "node/9321139289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9470800419",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "level": "1",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3986947,
+          5.400048
+        ]
+      },
+      "id": "node/9470800419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9472075291",
+        "name": "Baptist Book Store",
+        "name:ms": "Kedai Buku Baptis",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3115145,
+          5.4320936
+        ]
+      },
+      "id": "node/9472075291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9495833704",
+        "level": "1",
+        "name": "Bookxcess",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7081428,
+          3.1410323
+        ]
+      },
+      "id": "node/9495833704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9509402788",
+        "name": "Pustaka Evergreen",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3653378,
+          5.6694182
+        ]
+      },
+      "id": "node/9509402788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9574100708",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:wikipedia": "en:Popular Holdings",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6167735,
+          1.6397827
+        ]
+      },
+      "id": "node/9574100708"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9590181732",
+        "level": "2",
+        "name": "BookXcess",
+        "phone": "607-533 0390",
+        "shop": "books",
+        "website": "https://www.bookxcess.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6259843,
+          1.3973246
+        ]
+      },
+      "id": "node/9590181732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9666354896",
+        "addr:city": "Kuala Lumpur",
+        "addr:housenumber": "30",
+        "addr:postcode": "51200",
+        "addr:street": "Jalan Cenderuh 2",
+        "email": "support@jayabakti.com",
+        "fax": "+60362519585",
+        "name": "Jaya Bakti",
+        "name:en": "Jaya Bakti",
+        "name:ms": "Jaya Bakti",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "operator": "Jaya Bakti",
+        "phone": "+60362519399",
+        "shop": "books",
+        "website": "https://jayabakti.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.679059,
+          3.1951317
+        ]
+      },
+      "id": "node/9666354896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9702391090",
+        "level": "1",
+        "name": "BookXcess",
+        "name:en": "BookXcess",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7235768,
+          3.1345737
+        ]
+      },
+      "id": "node/9702391090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9702477126",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7273479,
+          3.1256877
+        ]
+      },
+      "id": "node/9702477126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9717218780",
+        "name": "The Book Haus",
+        "name:en": "The Book Haus",
+        "operator": "Elite Education Supplies",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.223728,
+          5.2879935
+        ]
+      },
+      "id": "node/9717218780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9796039233",
+        "name": "TanMark Book Centre",
+        "operator": "TanMark Book Centre Sdn Bhd",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3129553,
+          5.4298839
+        ]
+      },
+      "id": "node/9796039233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9893464299",
+        "name": "Kedai Buku South East Asia",
+        "name:en": "South East Asia Book Store",
+        "name:ms": "Kedai Buku South East Asia",
+        "name:zh": "东南亚书局",
+        "name:zh-Hans": "东南亚书局",
+        "name:zh-Hant": "東南亞書局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3336967,
+          5.4142533
+        ]
+      },
+      "id": "node/9893464299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9903396587",
+        "addr:housenumber": "197",
+        "name": "Pustaka Mukmin",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6963514,
+          3.1556898
+        ]
+      },
+      "id": "node/9903396587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9913740275",
+        "name": "Kedai Buku Banggol",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2009793,
+          6.1219977
+        ]
+      },
+      "id": "node/9913740275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9915320286",
+        "addr:city": "Kuala Lumpur",
+        "addr:housenumber": "Lot 2.89.00",
+        "addr:postcode": "57000",
+        "addr:street": "Persiaran Jalil Utama",
+        "branch": "Bukit Jalil",
+        "brand": "TSUTAYA",
+        "brand:wikidata": "Q5193457",
+        "brand:wikipedia": "ja:カルチュア・コンビニエンス・クラブ",
+        "contact:phone": "+81 3 5431 7788",
+        "level": "-1",
+        "name": "TSUTAYA",
+        "name:en": "TSUTAYA",
+        "name:ja": "ツタヤ",
+        "name:ja-Hira": "つたや",
+        "name:ja-Latn": "Tsutaya",
+        "name:zh": "茑屋书店",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "Tsutaya Books Malaysia Sdn. Bhd.",
+        "shop": "books",
+        "website": "https://www.ccc-my.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.671519,
+          3.0504666
+        ]
+      },
+      "id": "node/9915320286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9939642470",
+        "name": "Pustaka Lau",
+        "name:ms": "Pustaka Lau",
+        "name:zh": "刘秀成书店",
+        "name:zh-Hans": "刘秀成书店",
+        "name:zh-Hant": "劉秀成書店",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9064285,
+          3.5240726
+        ]
+      },
+      "id": "node/9939642470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9939642476",
+        "name": "Pustaka Bentong",
+        "name:ms": "Pustaka Bentong",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9059043,
+          3.5243662
+        ]
+      },
+      "id": "node/9939642476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9941627876",
+        "name": "Yon Yon Enterprise",
+        "name:en": "Yon Yon Enterprise",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.821342,
+          3.3495015
+        ]
+      },
+      "id": "node/9941627876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9977382360",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "indoor": "yes",
+        "level": "2",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.1198692,
+          5.8383053
+        ]
+      },
+      "id": "node/9977382360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10018112994",
+        "name": "Knowledge",
+        "operator": "Knowledge Book Co (SDK) Sdn. Bhd.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.0733714,
+          5.85662
+        ]
+      },
+      "id": "node/10018112994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10048552855",
+        "addr:housenumber": "18",
+        "addr:street": "Jalan Sultan Azlan Shah",
+        "name": "Tajrid Enterprise",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6973184,
+          3.1679742
+        ]
+      },
+      "id": "node/10048552855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10086099829",
+        "name": "Syarikat Jaffar Rawas Sdn. Bhd.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.238558,
+          6.1268834
+        ]
+      },
+      "id": "node/10086099829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10229496546",
+        "addr:city": "Kota Kinabalu",
+        "addr:country": "MY",
+        "addr:district": "Kota Kinabalu",
+        "addr:floor": "2",
+        "addr:housename": "Imago",
+        "addr:lot": "S 20; S 21",
+        "addr:postcode": "88100",
+        "addr:state": "Sabah",
+        "addr:street": "KK Times Square Boulevard",
+        "alt_name": "Popular Bookstore; Popular Book Company",
+        "contact:email": "kis@popularworld.com",
+        "contact:facebook": "398544573683759",
+        "contact:phone": "+60 88 274 219; +60 88 274 719",
+        "contact:website": "https://www.popular.com.my/",
+        "name": "Popular",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0672679,
+          5.9706054
+        ]
+      },
+      "id": "node/10229496546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10280498528",
+        "name": "Harris",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7950838,
+          1.5483674
+        ]
+      },
+      "id": "node/10280498528"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10284821939",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level": "3",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7763981,
+          1.5020775
+        ]
+      },
+      "id": "node/10284821939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10286078270",
+        "name": "Sin Sin",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8172925,
+          1.4957879
+        ]
+      },
+      "id": "node/10286078270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10296575574",
+        "air_conditioning": "yes",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "building:levels": "1",
+        "check_date": "2022-12-31",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3197802,
+          2.039997
+        ]
+      },
+      "id": "node/10296575574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10556930843",
+        "name": "BookXcess",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4677225,
+          3.1054894
+        ]
+      },
+      "id": "node/10556930843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10764045514",
+        "name": "Kedai Buku Banggol",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.495446,
+          5.7377038
+        ]
+      },
+      "id": "node/10764045514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10806844430",
+        "name": "Pustaka Rezeki Harapan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6966511,
+          3.1514085
+        ]
+      },
+      "id": "node/10806844430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10867090278",
+        "addr:housenumber": "91",
+        "addr:street": "Medan Bunus",
+        "name": "Manonmoney Villas",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6976433,
+          3.152799
+        ]
+      },
+      "id": "node/10867090278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10883802069",
+        "name": "A-Z Books",
+        "name:en": "A-Z Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6985671,
+          3.1716822
+        ]
+      },
+      "id": "node/10883802069"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10883802087",
+        "addr:housenumber": "134",
+        "addr:street": "Jalan Pahang",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6988849,
+          3.1727009
+        ]
+      },
+      "id": "node/10883802087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10981889428",
+        "addr:housenumber": "34",
+        "addr:street": "Jalan Tun H.S. Lee",
+        "name": "Riwayat",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6978596,
+          3.1486238
+        ]
+      },
+      "id": "node/10981889428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10981889430",
+        "addr:housenumber": "78",
+        "addr:street": "Jalan Tun H.S. Lee",
+        "name": "Junk Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6970053,
+          3.1475544
+        ]
+      },
+      "id": "node/10981889430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10983349690",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level": "2",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7981012,
+          1.5532392
+        ]
+      },
+      "id": "node/10983349690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11038609487",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level": "2",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6115041,
+          3.1557371
+        ]
+      },
+      "id": "node/11038609487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11049086175",
+        "addr:housenumber": "42&44",
+        "name": "MBS",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.3245693,
+          3.8105683
+        ]
+      },
+      "id": "node/11049086175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11126742505",
+        "name": "Rumah Pak Long Nan",
+        "name:ms": "Rumah Pak Long Nan",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7189792,
+          4.903139
+        ]
+      },
+      "id": "node/11126742505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11356114271",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level": "3",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7637061,
+          1.4622324
+        ]
+      },
+      "id": "node/11356114271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11383165778",
+        "air_conditioning": "yes",
+        "branch": "The Exchange TRX",
+        "name": "MPH BOOKSTORES",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "MPH Group (M) Sdn Bhd",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.719101,
+          3.142657
+        ]
+      },
+      "id": "node/11383165778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11492081073",
+        "addr:city": "Miri",
+        "addr:housenumber": "2882-2884",
+        "addr:postcode": "98000",
+        "addr:street": "Lorong 2",
+        "internet_access": "no",
+        "name": "Pusat Buku Bersatu (PBB)",
+        "name:en": "Union Books",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0395686,
+          4.4797685
+        ]
+      },
+      "id": "node/11492081073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11539179970",
+        "addr:city": "Miri",
+        "addr:housenumber": "258-260",
+        "addr:place": "Bandar Baru Permyjaya",
+        "addr:postcode": "98000",
+        "books": "textbook",
+        "branch": "Permy Mall",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100063467683046",
+        "internet_access": "no",
+        "name": "KK Book Centre",
+        "opening_hours": "Mo-Su 09:30-20:30",
+        "phone": "085-415 951",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0381626,
+          4.4502538
+        ]
+      },
+      "id": "node/11539179970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11576722200",
+        "addr:city": "Miri",
+        "addr:housenumber": "227",
+        "addr:postcode": "98000",
+        "addr:street": "Jalan Maju",
+        "name": "Sing Min Store",
+        "name:ms": "Kedai Buku Sing Min",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "phone": "085-413 405",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.987286,
+          4.3965971
+        ]
+      },
+      "id": "node/11576722200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11585761942",
+        "name": "BookXcess",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6983113,
+          3.1449184
+        ]
+      },
+      "id": "node/11585761942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11618581269",
+        "addr:city": "Miri",
+        "addr:housenumber": "2.56",
+        "addr:postcode": "98000",
+        "addr:street": "Jalan Miri-Pujut",
+        "branch": "Miri",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "internet_access": "no",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "085-439 052",
+        "shop": "books",
+        "website": "https://www.popular.com.my/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9934847,
+          4.3976015
+        ]
+      },
+      "id": "node/11618581269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11627239252",
+        "name": "Pustaka Seri Maju",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7075969,
+          3.1013108
+        ]
+      },
+      "id": "node/11627239252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11630729352",
+        "addr:city": "Miri",
+        "addr:housenumber": "5569",
+        "addr:place": "Bandar Baru Permyjaya",
+        "addr:postcode": "98000",
+        "internet_access": "no",
+        "mobile": "012-816 7783",
+        "name": "Pustaka Ilmu",
+        "opening_hours": "Mo-Sa 08:00-12:00,13:00-17:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0356098,
+          4.4507985
+        ]
+      },
+      "id": "node/11630729352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11649749215",
+        "name": "Kedai Buku Banggol",
+        "name:ms": "Kedai Buku Banggol",
+        "name:ms-Arab": "كداي بوكو بڠڬول",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1423915,
+          6.0455937
+        ]
+      },
+      "id": "node/11649749215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11676727305",
+        "addr:city": "Miri",
+        "addr:housenumber": "1309-1310",
+        "addr:postcode": "98000",
+        "addr:street": "Jalan Kubu",
+        "air_conditioning": "yes",
+        "books": "textbook",
+        "internet_access": "no",
+        "name": "KK Book Center",
+        "opening_hours": "Mo-Fr 10:00-17:30; Sa-Su 08:00-17:30",
+        "operator": "Bliss Alliance Sdn Bhd",
+        "phone": "085-411 343",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9857339,
+          4.390558
+        ]
+      },
+      "id": "node/11676727305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11733147447",
+        "name": "Kedai Buku Pelangi Books Gallery",
+        "name:en": "Pelangi Books Gallery",
+        "name:ms": "Kedai Buku Pelangi Books Gallery",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7746533,
+          1.4825011
+        ]
+      },
+      "id": "node/11733147447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11811745170",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0960731,
+          5.9619136
+        ]
+      },
+      "id": "node/11811745170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11817926337",
+        "brand": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1303755,
+          6.0365688
+        ]
+      },
+      "id": "node/11817926337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11947850851",
+        "name": "Pustaka Rawang",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5124104,
+          3.160989
+        ]
+      },
+      "id": "node/11947850851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959254262",
+        "name": "Quong Ming Book Co. Sdn Bhd (Branch)",
+        "operator": "Quong Ming Book Company Sdn Bhd",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.8868262,
+          4.2425072
+        ]
+      },
+      "id": "node/11959254262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11960225327",
+        "name": "Kedai Buku",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5443501,
+          3.1782033
+        ]
+      },
+      "id": "node/11960225327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11964352331",
+        "addr:housenumber": "45",
+        "addr:street": "Jalan Dataran Suria 15/7/1",
+        "name": "Pustaka Rawang",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4137465,
+          3.2333057
+        ]
+      },
+      "id": "node/11964352331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11989633687",
+        "addr:city": "Sarikei",
+        "addr:postcode": "96100",
+        "addr:street": "Jalan Sentral, Bandar, Sarikei, 96100 Sarikei, Sarawak",
+        "books": "comic;textbook",
+        "internet_access": "wlan",
+        "name": "Saujana Book Store",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "payment:cash": "yes",
+        "phone": "084656573",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.5247326,
+          2.1290817
+        ]
+      },
+      "id": "node/11989633687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991483978",
+        "addr:city": "Miri",
+        "addr:housenumber": "1267",
+        "addr:postcode": "98000",
+        "addr:street": "Jalan Kubu",
+        "books": "religion",
+        "internet_access": "no",
+        "name": "Nugrahyuni (M) Sdn Bhd",
+        "phone": "085-425 877;085-417 879",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9847886,
+          4.3895399
+        ]
+      },
+      "id": "node/11991483978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12041311594",
+        "name": "Pustaka Rawang",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5484264,
+          3.1763198
+        ]
+      },
+      "id": "node/12041311594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12101707383",
+        "addr:housenumber": "61",
+        "name": "Kedai Buku Ibzanis",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6631486,
+          3.0872984
+        ]
+      },
+      "id": "node/12101707383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12197893176",
+        "name": "Pustaka Rawang",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7521135,
+          3.2096416
+        ]
+      },
+      "id": "node/12197893176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12230825210",
+        "addr:housenumber": "63",
+        "addr:street": "Jalan Dataran Suria 15/7/1",
+        "name": "SEM Books & Stationeries",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.4131367,
+          3.2331302
+        ]
+      },
+      "id": "node/12230825210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12242758555",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3608766,
+          1.5069045
+        ]
+      },
+      "id": "node/12242758555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12309349631",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.336998,
+          1.5275152
+        ]
+      },
+      "id": "node/12309349631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12418865597",
+        "addr:housenumber": "19",
+        "addr:street": "Jalan Raja",
+        "name": "Syarikat Pustaka & Seni",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2596128,
+          4.1971943
+        ]
+      },
+      "id": "node/12418865597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12422515947",
+        "addr:housenumber": "11",
+        "addr:place": "Kompleks Seri Temin",
+        "name": "Pustaka Habibi",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4894793,
+          5.6445639
+        ]
+      },
+      "id": "node/12422515947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12455766698",
+        "name": "Dynamic Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.484629,
+          5.1143185
+        ]
+      },
+      "id": "node/12455766698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12531620661",
+        "name": "IIUM Bookshop",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.736087,
+          3.2505827
+        ]
+      },
+      "id": "node/12531620661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12603874222",
+        "addr:housenumber": "15",
+        "addr:street": "Jalan Scott",
+        "name": "Sree SivaGuru Book Depot",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6917603,
+          3.1355628
+        ]
+      },
+      "id": "node/12603874222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12603874238",
+        "addr:housenumber": "23",
+        "addr:street": "Jalan Scott",
+        "name": "Sri Krishna Book Store",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6921219,
+          3.1351721
+        ]
+      },
+      "id": "node/12603874238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12777585902",
+        "addr:housenumber": "120",
+        "addr:street": "Jalan Idris",
+        "name": "Kedai Buku Kim Kee",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.1523943,
+          4.3135715
+        ]
+      },
+      "id": "node/12777585902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12779002953",
+        "check_date": "2025-04-23",
+        "name": "Benzamine Book Centre",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3466569,
+          1.5579353
+        ]
+      },
+      "id": "node/12779002953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12951219598",
+        "name": "Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5175552,
+          3.3354766
+        ]
+      },
+      "id": "node/12951219598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13006213592",
+        "name": "Got1shop",
+        "name:zh": "有店书铺",
+        "shop": "books",
+        "website": "https://www.got1shop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6970975,
+          3.0135171
+        ]
+      },
+      "id": "node/13006213592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13006238202",
+        "name": "CityLight Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6960635,
+          3.0135046
+        ]
+      },
+      "id": "node/13006238202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13025694835",
+        "name": "Book Xcess Village Grocer Subang Parade",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5860381,
+          3.0828032
+        ]
+      },
+      "id": "node/13025694835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13026280936",
+        "name": "J & J Sales & Services",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5869653,
+          3.0748827
+        ]
+      },
+      "id": "node/13026280936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13028502187",
+        "name": "As Sunnah",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5865378,
+          3.0802967
+        ]
+      },
+      "id": "node/13028502187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13068142341",
+        "name": "R.B. Ahmad Bookshop",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.4617301,
+          1.2359032
+        ]
+      },
+      "id": "node/13068142341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13070454197",
+        "mapillary": "1289731939510181",
+        "name": "Impiana Publications & Distributors Sdn. Bhd.",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6443149,
+          3.0750036
+        ]
+      },
+      "id": "node/13070454197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13076894237",
+        "addr:city": "Kota Kinabalu",
+        "addr:housenumber": "BG26",
+        "addr:postcode": "88000",
+        "addr:street": "Ground Floor, Phase 2, Wisma Merdeka",
+        "internet_access": "no",
+        "name": "The Borneo Shop",
+        "name:ms": "Kedai Buku Borneo",
+        "opening_hours": "Mo-Su 10:00-17:30",
+        "operator": "Chan Hin Ching",
+        "payment:alipay": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:wechat": "yes",
+        "phone": "+6088534463",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0756369,
+          5.9858965
+        ]
+      },
+      "id": "node/13076894237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13183475704",
+        "books": "religion;islamic",
+        "name": "Fahmi Bookstore",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.2891381,
+          3.7845186
+        ]
+      },
+      "id": "node/13183475704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13377454002",
+        "addr:street": "Jalan Kebun Nenas 7A/KS 8",
+        "name": "Kedai Buku & Alat Tulis",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5185416,
+          2.9587038
+        ]
+      },
+      "id": "node/13377454002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13417526618",
+        "brand": "Popular",
+        "brand:en": "Popular",
+        "brand:wikidata": "Q4167785",
+        "brand:zh": "大众书局",
+        "level:ref": "L1",
+        "name": "Popular",
+        "name:en": "Popular",
+        "name:zh": "大众书局",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.742947,
+          3.0909702
+        ]
+      },
+      "id": "node/13417526618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13422407090",
+        "addr:housenumber": "44;46",
+        "addr:street": "Jalan Wawasan 4",
+        "branch": "Parit Buntar",
+        "brand": "Adam",
+        "name": "Syarikat Adam",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4812403,
+          5.1131885
+        ]
+      },
+      "id": "node/13422407090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13441319247",
+        "addr:city": "Kuala Lumpur",
+        "addr:housenumber": "41",
+        "addr:postcode": "57000",
+        "addr:street": "Jalan Radin Anum",
+        "name": "Cite Book Garden",
+        "name:en": "Cite Book Garden",
+        "name:zh": "城邦阅读花园",
+        "name:zh-Hans": "城邦阅读花园",
+        "name:zh-Hant": "城邦閱讀花園",
+        "phone": "+60-390563833",
+        "shop": "books",
+        "website": "https://www.cite.com.my/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6912151,
+          3.0704558
+        ]
+      },
+      "id": "node/13441319247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13461845333",
+        "name": "The Library by Bookxcess",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6044773,
+          3.0647936
+        ]
+      },
+      "id": "node/13461845333"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13565867805",
+        "air_conditioning": "yes",
+        "contact:facebook": "https://www.facebook.com/bodhibookcentre",
+        "email": "enquiry.bodhibookcentre@gmail.com",
+        "name": "Pusat Buku-Buku Bodhi",
+        "name:en": "Bodhi Book Centre",
+        "name:ms": "Pusat Buku-Buku Bodhi",
+        "name:zh": "菩提书局",
+        "name:zh-Hans": "菩提书局",
+        "name:zh-Hant": "菩提書局",
+        "shop": "books",
+        "website": "https://www.bodhibookcentre.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6988822,
+          3.1435246
+        ]
+      },
+      "id": "node/13565867805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13566556919",
+        "name": "Anis Haiqal Enterprise",
+        "opening_hours": "Sa, Su 03:00-22:00; Mo-Th 10:00-22:00",
+        "phone": "010-201 0210",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5390905,
+          3.3264686
+        ]
+      },
+      "id": "node/13566556919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13572028343",
+        "name": "Skni Business (style Khalifah Nur Iman)",
+        "opening_hours": "Mo-Fr 04:00-00:00",
+        "phone": "011-6168 3629",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5097211,
+          3.3401998
+        ]
+      },
+      "id": "node/13572028343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13644413776",
+        "addr:city": "Petaling Jaya",
+        "addr:street": "Jalan 17/12",
+        "alt_name": "季风带",
+        "alt_name:zh": "季风带",
+        "alt_name:zh-Hans": "季风带",
+        "alt_name:zh-Hant": "季風帶",
+        "description": "https://linktr.ee/monsoonzone.my\nhttps://mzbooks.shop/",
+        "email": "monsoonzone.my@gmail.com",
+        "name": "Monsoon Books",
+        "name:en": "Monsoon Books",
+        "name:zh": "季风带马来西亚",
+        "name:zh-Hans": "季风带马来西亚",
+        "name:zh-Hant": "季風帶馬來西亞",
+        "phone": "+60-192350383",
+        "shop": "books",
+        "website": "https://empressculture.com.my/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6356761,
+          3.1226718
+        ]
+      },
+      "id": "node/13644413776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13753988345",
+        "addr:street": "AEON Mall Tebrau City",
+        "name": "Tsutaya Bookstore",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7950437,
+          1.5495484
+        ]
+      },
+      "id": "node/13753988345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14000194701",
+        "addr:street": "Persiaran Olahraga",
+        "check_date": "2026-08-02",
+        "check_date:opening_hours": "2026-07-09",
+        "level": "2",
+        "name": "UPrint - Books & Gifts",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "013-244 5990",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5529142,
+          3.0783021
+        ]
+      },
+      "id": "node/14000194701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14086659684",
+        "addr:city": "Bandar Baru Salak Tinggi",
+        "addr:housenumber": "33",
+        "addr:postcode": "43900",
+        "addr:street": "Jalan Seroja 4",
+        "name": "Seroja Book And Stationary",
+        "name:ms": "Kedai Buku Dan Alat Tulis Seroja",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.7301161,
+          2.8267311
+        ]
+      },
+      "id": "node/14086659684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14102211126",
+        "name": "smobookstores",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.1435253,
+          6.0438493
+        ]
+      },
+      "id": "node/14102211126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14163058418",
+        "name": "Tintabudi",
+        "shop": "books"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6311099,
+          3.1374536
+        ]
+      },
+      "id": "node/14163058418"
+    }
+  ]
+}

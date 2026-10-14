@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Print and Digital Publishing in Malaysia",
+    "subtitle": "ISBN and e-ISBN applications, 2013-2022"
+  },
+
+  "width": 650,
+  "height": 350,
+
+  "data": {
+    "url": "data/isbn_eisbn.csv"
+  },
+
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 2
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+
+    "y": {
+      "field": "Titles",
+      "type": "quantitative",
+      "title": "Number of Applications",
+      "scale": {
+        "zero": true
+      }
+    },
+
+    "color": {
+      "field": "Format",
+      "type": "nominal",
+      "title": "Publication Format"
+    },
+
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "Format",
+        "type": "nominal",
+        "title": "Format"
+      },
+      {
+        "field": "Titles",
+        "type": "quantitative",
+        "title": "Applications",
+        "format": ","
+      }
+    ]
+  }
+}

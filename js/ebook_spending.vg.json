@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "How Much Do E-book Buyers Spend?",
+    "subtitle": "Share of e-book sales by transaction value, 2017-2022"
+  },
+
+  "width": 600,
+  "height": 350,
+
+  "data": {
+    "url": "data/ebook_spending.csv"
+  },
+
+  "mark": "bar",
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+
+    "y": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Percentage of Transactions (%)",
+      "stack": "zero"
+    },
+
+    "color": {
+      "field": "Spending_Range",
+      "type": "nominal",
+      "title": "Spending Range",
+      "sort": [
+        "MYR1-MYR20",
+        "MYR20-MYR40",
+        "MYR40-MYR60",
+        "MYR60-MYR80",
+        "MYR80-MYR100",
+        "MYR100+"
+      ]
+    },
+
+    "order": {
+      "field": "Spending_Range",
+      "sort": "ascending"
+    },
+
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "Spending_Range",
+        "type": "nominal",
+        "title": "Transaction Value"
+      },
+      {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Share",
+        "format": ".0f"
+      }
+    ]
+  }
+}

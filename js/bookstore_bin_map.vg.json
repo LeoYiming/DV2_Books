@@ -1,0 +1,140 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Where Are Bookstores Most Concentrated?",
+    "subtitle": "Bookstore concentration across the Klang Valley, based on OpenStreetMap records"
+  },
+
+  "width": 700,
+  "height": 420,
+
+  "projection": {
+    "type": "mercator",
+    "center": [101.55, 3.15],
+    "scale": 30000
+  },
+
+  "layer": [
+    {
+      "data": {
+        "url": "data/administrative_1_state.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+
+      "mark": {
+        "type": "geoshape",
+        "fill": "#eeeeee",
+        "stroke": "white",
+        "strokeWidth": 1,
+        "clip": true
+      }
+    },
+
+    {
+      "data": {
+        "url": "data/malaysia_bookstores.geojson",
+        "format": {
+          "type": "json",
+          "property": "features"
+        }
+      },
+
+      "transform": [
+        {
+          "calculate": "datum.geometry.coordinates[0]",
+          "as": "Longitude"
+        },
+        {
+          "calculate": "datum.geometry.coordinates[1]",
+          "as": "Latitude"
+        },
+        {
+          "filter": "datum.Longitude >= 100.95 && datum.Longitude <= 102.05 && datum.Latitude >= 2.65 && datum.Latitude <= 3.65"
+        },
+        {
+          "bin": {
+            "step": 0.05
+          },
+          "field": "Longitude",
+          "as": [
+            "Longitude_Start",
+            "Longitude_End"
+          ]
+        },
+        {
+          "bin": {
+            "step": 0.05
+          },
+          "field": "Latitude",
+          "as": [
+            "Latitude_Start",
+            "Latitude_End"
+          ]
+        },
+        {
+          "aggregate": [
+            {
+              "op": "count",
+              "as": "Bookstores"
+            }
+          ],
+          "groupby": [
+            "Longitude_Start",
+            "Longitude_End",
+            "Latitude_Start",
+            "Latitude_End"
+          ]
+        }
+      ],
+
+      "mark": {
+        "type": "rect",
+        "opacity": 0.8,
+        "stroke": "white",
+        "strokeWidth": 0.5,
+        "clip": true
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude_Start",
+          "type": "quantitative"
+        },
+
+        "longitude2": {
+          "field": "Longitude_End"
+        },
+
+        "latitude": {
+          "field": "Latitude_Start",
+          "type": "quantitative"
+        },
+
+        "latitude2": {
+          "field": "Latitude_End"
+        },
+
+        "color": {
+          "field": "Bookstores",
+          "type": "quantitative",
+          "title": "Recorded Bookstores",
+          "scale": {
+            "scheme": "reds"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Bookstores",
+            "type": "quantitative",
+            "title": "Recorded Bookstores"
+          }
+        ]
+      }
+    }
+  ]
+}

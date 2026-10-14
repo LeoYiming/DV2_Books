@@ -1,0 +1,49 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Who Reads E-books in Malaysia?",
+    "subtitle": "Age distribution of registered e-Sentral users, 2021"
+  },
+
+  "width": 600,
+  "height": 250,
+
+  "data": {
+    "url": "data/ebook_age.csv"
+  },
+
+  "mark": "bar",
+
+  "encoding": {
+    "y": {
+      "field": "Age_Group",
+      "type": "ordinal",
+      "title": "Age Group",
+      "sort": ["18-24", "25-34", "35-44", "45+"]
+    },
+
+    "x": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Percentage of Users (%)",
+      "scale": {
+        "domain": [0, 40]
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "Age_Group",
+        "type": "ordinal",
+        "title": "Age Group"
+      },
+      {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Users",
+        "format": ".0f"
+      }
+    ]
+  }
+}

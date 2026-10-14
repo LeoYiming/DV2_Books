@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "What Does Malaysia Publish?",
+    "subtitle": "Selected book subject areas recorded by the National Library of Malaysia, 2013-2022"
+  },
+
+  "width": 650,
+  "height": 350,
+
+  "data": {
+    "url": "data/subject_year.csv"
+  },
+
+  "mark": "rect",
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+
+    "y": {
+      "field": "Subject",
+      "type": "nominal",
+      "title": "Subject Area",
+      "sort": [
+        "Language",
+        "Literature",
+        "Religion",
+        "Education",
+        "Mathematics",
+        "Natural Science",
+        "Economy",
+        "Technology, Engineering, Industry"
+      ]
+    },
+
+    "color": {
+      "field": "Titles",
+      "type": "quantitative",
+      "title": "Number of Titles",
+      "scale": {
+        "scheme": "blues"
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "Subject",
+        "type": "nominal",
+        "title": "Subject"
+      },
+      {
+        "field": "Titles",
+        "type": "quantitative",
+        "title": "Titles",
+        "format": ","
+      }
+    ]
+  }
+}

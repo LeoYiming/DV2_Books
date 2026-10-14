@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Which States Have More Listed Bookstores?",
+    "subtitle": "Businesses listed as bookstores on Google Maps, reported in PNM 2022/2023"
+  },
+
+  "width": 700,
+  "height": 400,
+
+  "projection": {
+    "type": "mercator"
+  },
+
+  "data": {
+    "url": "data/administrative_1_state.geojson",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
+  },
+
+  "transform": [
+    {
+      "lookup": "properties.state",
+      "from": {
+        "data": {
+          "url": "data/bookstores_by_state.csv"
+        },
+        "key": "State",
+        "fields": [
+          "Bookstores"
+        ]
+      }
+    }
+  ],
+
+  "mark": {
+    "type": "geoshape",
+    "stroke": "white",
+    "strokeWidth": 1
+  },
+
+  "encoding": {
+    "color": {
+      "field": "Bookstores",
+      "type": "quantitative",
+      "title": "Listed Bookstores",
+      "scale": {
+        "scheme": "blues"
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "properties.state",
+        "type": "nominal",
+        "title": "State"
+      },
+      {
+        "field": "Bookstores",
+        "type": "quantitative",
+        "title": "Listed Bookstores"
+      }
+    ]
+  }
+}

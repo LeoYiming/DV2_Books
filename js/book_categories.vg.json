@@ -1,0 +1,63 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Malaysia's Changing Book Categories",
+    "subtitle": "Number of titles collected by the National Library of Malaysia, 2013-2022"
+  },
+
+  "width": 650,
+  "height": 350,
+
+  "data": {
+    "url": "data/book_categories.csv"
+  },
+
+  "mark": {
+    "type": "line",
+    "point": true,
+    "strokeWidth": 2
+  },
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+
+    "y": {
+      "field": "Titles",
+      "type": "quantitative",
+      "title": "Number of Titles",
+      "scale": {
+        "zero": true
+      }
+    },
+
+    "color": {
+      "field": "Category",
+      "type": "nominal",
+      "title": "Book Category"
+    },
+
+    "tooltip": [
+      {
+        "field": "Year",
+        "type": "ordinal",
+        "title": "Year"
+      },
+      {
+        "field": "Category",
+        "type": "nominal",
+        "title": "Category"
+      },
+      {
+        "field": "Titles",
+        "type": "quantitative",
+        "title": "Titles",
+        "format": ","
+      }
+    ]
+  }
+}
