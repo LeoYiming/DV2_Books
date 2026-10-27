@@ -3,7 +3,8 @@
 
   "title": {
     "text": "What Does Malaysia Publish?",
-    "subtitle": "Selected book subject areas recorded by the National Library of Malaysia, 2013-2022"
+    "subtitle": "Selected book subject areas recorded by the National Library of Malaysia, 2013-2022",
+    "anchor": "start"
   },
 
   "width": 650,
@@ -13,13 +14,20 @@
     "url": "data/subject_year.csv"
   },
 
-  "mark": "rect",
+  "mark": {
+    "type": "rect",
+    "stroke": "white",
+    "strokeWidth": 0.7
+  },
 
   "encoding": {
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0
+      }
     },
 
     "y": {
@@ -35,7 +43,10 @@
         "Natural Science",
         "Economy",
         "Technology, Engineering, Industry"
-      ]
+      ],
+      "axis": {
+        "labelLimit": 220
+      }
     },
 
     "color": {
@@ -43,7 +54,10 @@
       "type": "quantitative",
       "title": "Number of Titles",
       "scale": {
-        "scheme": "blues"
+        "scheme": "browns"
+      },
+      "legend": {
+        "gradientLength": 180
       }
     },
 
@@ -56,7 +70,7 @@
       {
         "field": "Subject",
         "type": "nominal",
-        "title": "Subject"
+        "title": "Subject Area"
       },
       {
         "field": "Titles",
@@ -65,5 +79,33 @@
         "format": ","
       }
     ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "grid": false,
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
   }
 }
