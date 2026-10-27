@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": "Who Reads E-books in Malaysia?",
-    "subtitle": "Age distribution of registered e-Sentral users, 2021"
+    "text": "What Is the Age Profile of e-Sentral's Registered Users?",
+    "subtitle": "Share of registered users by age group, 2021"
   },
 
   "width": 600,
@@ -13,37 +13,97 @@
     "url": "data/ebook_age.csv"
   },
 
-  "mark": "bar",
-
-  "encoding": {
-    "y": {
-      "field": "Age_Group",
-      "type": "ordinal",
-      "title": "Age Group",
-      "sort": ["18-24", "25-34", "35-44", "45+"]
-    },
-
-    "x": {
-      "field": "Percentage",
-      "type": "quantitative",
-      "title": "Percentage of Users (%)",
-      "scale": {
-        "domain": [0, 40]
-      }
-    },
-
-    "tooltip": [
-      {
-        "field": "Age_Group",
-        "type": "ordinal",
-        "title": "Age Group"
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "color": "#6B8E9B",
+        "cornerRadiusEnd": 3
       },
-      {
-        "field": "Percentage",
-        "type": "quantitative",
-        "title": "Users",
-        "format": ".0f"
+
+      "encoding": {
+        "y": {
+          "field": "Age_Group",
+          "type": "ordinal",
+          "title": "Age Group",
+          "sort": ["18-24", "25-34", "35-44", "45+"]
+        },
+
+        "x": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "title": "Share of Registered Users (%)",
+          "scale": {
+            "zero": true,
+            "domain": [0, 40]
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Age_Group",
+            "type": "ordinal",
+            "title": "Age Group"
+          },
+          {
+            "field": "Percentage",
+            "type": "quantitative",
+            "title": "Share of Users (%)",
+            "format": ".0f"
+          }
+        ]
       }
-    ]
+    },
+
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 6,
+        "fontSize": 12,
+        "color": "#424B52"
+      },
+
+      "encoding": {
+        "y": {
+          "field": "Age_Group",
+          "type": "ordinal",
+          "sort": ["18-24", "25-34", "35-44", "45+"]
+        },
+
+        "x": {
+          "field": "Percentage",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "format": ".0f"
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
   }
 }
