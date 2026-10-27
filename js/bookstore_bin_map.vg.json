@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": "Where Are Bookstores Most Concentrated?",
-    "subtitle": "Bookstore concentration across the Klang Valley, based on OpenStreetMap records"
+    "text": "Where Are Recorded Bookstores Most Concentrated?",
+    "subtitle": "Spatial concentration of OpenStreetMap bookstore records across the Klang Valley"
   },
 
   "width": 700,
@@ -27,7 +27,7 @@
 
       "mark": {
         "type": "geoshape",
-        "fill": "#eeeeee",
+        "fill": "#f1f3f4",
         "stroke": "white",
         "strokeWidth": 1,
         "clip": true
@@ -93,7 +93,7 @@
 
       "mark": {
         "type": "rect",
-        "opacity": 0.8,
+        "opacity": 0.82,
         "stroke": "white",
         "strokeWidth": 0.5,
         "clip": true
@@ -123,7 +123,7 @@
           "type": "quantitative",
           "title": "Recorded Bookstores",
           "scale": {
-            "scheme": "reds"
+            "scheme": "purples"
           }
         },
 
@@ -135,6 +135,121 @@
           }
         ]
       }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "Place": "Kuala Lumpur",
+            "Longitude": 101.6869,
+            "Latitude": 3.139
+          },
+          {
+            "Place": "Petaling Jaya",
+            "Longitude": 101.6449,
+            "Latitude": 3.1073
+          },
+          {
+            "Place": "Shah Alam",
+            "Longitude": 101.5328,
+            "Latitude": 3.0738
+          },
+          {
+            "Place": "Klang",
+            "Longitude": 101.4456,
+            "Latitude": 3.0449
+          }
+        ]
+      },
+
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 35,
+        "color": "#333333"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "Place": "Kuala Lumpur",
+            "Longitude": 101.6869,
+            "Latitude": 3.139
+          },
+          {
+            "Place": "Petaling Jaya",
+            "Longitude": 101.6449,
+            "Latitude": 3.1073
+          },
+          {
+            "Place": "Shah Alam",
+            "Longitude": 101.5328,
+            "Latitude": 3.0738
+          },
+          {
+            "Place": "Klang",
+            "Longitude": 101.4456,
+            "Latitude": 3.0449
+          }
+        ]
+      },
+
+      "mark": {
+        "type": "text",
+        "dx": 7,
+        "dy": -7,
+        "align": "left",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#333333"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "Place"
+        }
+      }
     }
-  ]
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
+  }
 }

@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": "Where Are Malaysia's Bookstores?",
-    "subtitle": "Bookstores recorded in OpenStreetMap"
+    "text": "Where Are Malaysia's Bookstores Located?",
+    "subtitle": "Recorded bookstore locations from OpenStreetMap"
   },
 
   "width": 700,
@@ -25,7 +25,7 @@
 
       "mark": {
         "type": "geoshape",
-        "fill": "#eeeeee",
+        "fill": "#f1f3f4",
         "stroke": "white",
         "strokeWidth": 1
       }
@@ -40,13 +40,37 @@
         }
       },
 
+      "transform": [
+        {
+          "calculate": "datum.geometry.coordinates[0]",
+          "as": "Longitude"
+        },
+        {
+          "calculate": "datum.geometry.coordinates[1]",
+          "as": "Latitude"
+        }
+      ],
+
       "mark": {
-        "type": "geoshape",
-        "fill": "#b33a3a",
-        "opacity": 0.7
+        "type": "circle",
+        "size": 30,
+        "opacity": 0.55,
+        "color": "#5B5F97",
+        "stroke": "white",
+        "strokeWidth": 0.4
       },
 
       "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+
         "tooltip": [
           {
             "field": "properties.name",
@@ -55,6 +79,126 @@
           }
         ]
       }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "Place": "Kuala Lumpur",
+            "Longitude": 101.6869,
+            "Latitude": 3.139
+          },
+          {
+            "Place": "George Town",
+            "Longitude": 100.3327,
+            "Latitude": 5.4141
+          },
+          {
+            "Place": "Johor Bahru",
+            "Longitude": 103.7414,
+            "Latitude": 1.4927
+          },
+          {
+            "Place": "Kuching",
+            "Longitude": 110.3592,
+            "Latitude": 1.5533
+          },
+          {
+            "Place": "Kota Kinabalu",
+            "Longitude": 116.0735,
+            "Latitude": 5.9804
+          }
+        ]
+      },
+
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 28,
+        "color": "#222222"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "Place": "Kuala Lumpur",
+            "Longitude": 101.6869,
+            "Latitude": 3.139
+          },
+          {
+            "Place": "George Town",
+            "Longitude": 100.3327,
+            "Latitude": 5.4141
+          },
+          {
+            "Place": "Johor Bahru",
+            "Longitude": 103.7414,
+            "Latitude": 1.4927
+          },
+          {
+            "Place": "Kuching",
+            "Longitude": 110.3592,
+            "Latitude": 1.5533
+          },
+          {
+            "Place": "Kota Kinabalu",
+            "Longitude": 116.0735,
+            "Latitude": 5.9804
+          }
+        ]
+      },
+
+      "mark": {
+        "type": "text",
+        "dx": 6,
+        "dy": -6,
+        "align": "left",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "color": "#333333"
+      },
+
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "Place"
+        }
+      }
     }
-  ]
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
+  }
 }
