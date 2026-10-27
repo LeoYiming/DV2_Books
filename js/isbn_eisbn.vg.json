@@ -1,63 +1,214 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-  "title": {
-    "text": "Print and Digital Publishing in Malaysia",
-    "subtitle": "ISBN and e-ISBN applications, 2013-2022"
-  },
-
-  "width": 650,
-  "height": 350,
-
   "data": {
     "url": "data/isbn_eisbn.csv"
   },
 
-  "mark": {
-    "type": "line",
-    "point": true,
-    "strokeWidth": 2
-  },
+  "spacing": 18,
 
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "type": "ordinal",
-      "title": "Year"
-    },
+  "vconcat": [
+    {
+      "width": 650,
+      "height": 280,
 
-    "y": {
-      "field": "Titles",
-      "type": "quantitative",
-      "title": "Number of Applications",
-      "scale": {
-        "zero": true
+      "title": {
+        "text": "Digital Publishing's Share of Applications",
+        "subtitle": "e-ISBN applications as a share of total ISBN and e-ISBN applications",
+        "anchor": "start",
+        "fontSize": 16,
+        "subtitleFontSize": 12,
+        "color": "#C06C84"
+      },
+
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "Titles",
+              "as": "Total_Applications"
+            }
+          ],
+          "groupby": ["Year"]
+        },
+        {
+          "calculate": "datum.Titles / datum.Total_Applications * 100",
+          "as": "Share"
+        },
+        {
+          "filter": "datum.Format === 'e-ISBN'"
+        }
+      ],
+
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5,
+        "color": "#C06C84",
+        "point": {
+          "filled": true,
+          "size": 55,
+          "color": "#C06C84"
+        }
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "title": null,
+          "scale": {
+            "domain": {
+              "param": "brush"
+            }
+          },
+          "axis": {
+            "format": "d",
+            "tickMinStep": 1,
+            "labelAngle": 0
+          }
+        },
+
+        "y": {
+          "field": "Share",
+          "type": "quantitative",
+          "title": "e-ISBN Share (%)",
+          "scale": {
+            "zero": true
+          },
+          "axis": {
+            "format": ".0f"
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "Titles",
+            "type": "quantitative",
+            "title": "e-ISBN Applications",
+            "format": ","
+          },
+          {
+            "field": "Total_Applications",
+            "type": "quantitative",
+            "title": "Total Applications",
+            "format": ","
+          },
+          {
+            "field": "Share",
+            "type": "quantitative",
+            "title": "Digital Share (%)",
+            "format": ".1f"
+          }
+        ]
       }
     },
 
-    "color": {
-      "field": "Format",
-      "type": "nominal",
-      "title": "Publication Format"
+    {
+      "width": 650,
+      "height": 70,
+
+      "title": {
+        "text": "Drag across the timeline to explore a period",
+        "anchor": "start",
+        "fontSize": 12,
+        "fontWeight": "normal",
+        "color": "#66727A"
+      },
+
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "Titles",
+              "as": "Total_Applications"
+            }
+          ],
+          "groupby": ["Year"]
+        }
+      ],
+
+      "params": [
+        {
+          "name": "brush",
+          "select": {
+            "type": "interval",
+            "encodings": ["x"]
+          }
+        }
+      ],
+
+      "mark": {
+        "type": "area",
+        "color": "#AAB7C2",
+        "opacity": 0.65,
+        "line": {
+          "color": "#6D7F8D",
+          "strokeWidth": 1.5
+        }
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "quantitative",
+          "title": "Year",
+          "axis": {
+            "format": "d",
+            "tickMinStep": 1,
+            "labelAngle": 0
+          }
+        },
+
+        "y": {
+          "field": "Total_Applications",
+          "type": "quantitative",
+          "axis": null
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+          {
+            "field": "Total_Applications",
+            "type": "quantitative",
+            "title": "Total Applications",
+            "format": ","
+          }
+        ]
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
     },
 
-    "tooltip": [
-      {
-        "field": "Year",
-        "type": "ordinal",
-        "title": "Year"
-      },
-      {
-        "field": "Format",
-        "type": "nominal",
-        "title": "Format"
-      },
-      {
-        "field": "Titles",
-        "type": "quantitative",
-        "title": "Applications",
-        "format": ","
-      }
-    ]
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
   }
 }
