@@ -1,0 +1,200 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "How Did Publishing Output Change by Subject?",
+    "subtitle": "Number of titles in selected subject areas, 2013 compared with 2022"
+  },
+
+  "width": 620,
+  "height": 400,
+
+  "data": {
+    "url": "data/subject_year.csv"
+  },
+
+  "transform": [
+    {
+      "filter": "datum.Year == 2013 || datum.Year == 2022"
+    },
+    {
+      "calculate": "toNumber(datum.Titles)",
+      "as": "Titles_Num"
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": true,
+          "size": 70
+        },
+        "strokeWidth": 2.5
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": null,
+          "sort": [2013, 2022],
+          "axis": {
+            "labelAngle": 0,
+            "labelFontSize": 13,
+            "labelFontWeight": "bold"
+          }
+        },
+
+        "y": {
+          "field": "Titles_Num",
+          "type": "quantitative",
+          "title": "Number of Titles",
+          "scale": {
+            "zero": true
+          }
+        },
+
+        "color": {
+          "field": "Subject",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Language",
+              "Literature",
+              "Religion",
+              "Education",
+              "Mathematics",
+              "Natural Science",
+              "Economy",
+              "Technology, Engineering, Industry"
+            ],
+            "range": [
+              "#4E79A7",
+              "#F28E2B",
+              "#B07AA1",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F",
+              "#D37295",
+              "#79706E"
+            ]
+          }
+        },
+
+        "detail": {
+          "field": "Subject"
+        },
+
+        "tooltip": [
+          {
+            "field": "Subject",
+            "type": "nominal",
+            "title": "Subject Area"
+          },
+          {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "Titles_Num",
+            "type": "quantitative",
+            "title": "Titles",
+            "format": ","
+          }
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Year == 2022"
+        },
+        {
+          "calculate": "datum.Subject === 'Religion' ? datum.Titles_Num + 90 : datum.Subject === 'Education' ? datum.Titles_Num - 70 : datum.Subject === 'Mathematics' ? datum.Titles_Num + 180 : datum.Subject === 'Natural Science' ? datum.Titles_Num + 110 : datum.Subject === 'Economy' ? datum.Titles_Num + 40 : datum.Subject === 'Technology, Engineering, Industry' ? datum.Titles_Num - 130 : datum.Titles_Num",
+          "as": "LabelPosition"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 10,
+        "fontSize": 11,
+        "fontWeight": "bold"
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "sort": [2013, 2022]
+        },
+
+        "y": {
+          "field": "LabelPosition",
+          "type": "quantitative"
+        },
+
+        "text": {
+          "field": "Subject",
+          "type": "nominal"
+        },
+
+        "color": {
+          "field": "Subject",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Language",
+              "Literature",
+              "Religion",
+              "Education",
+              "Mathematics",
+              "Natural Science",
+              "Economy",
+              "Technology, Engineering, Industry"
+            ],
+            "range": [
+              "#4E79A7",
+              "#F28E2B",
+              "#B07AA1",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F",
+              "#D37295",
+              "#79706E"
+            ]
+          }
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
+  }
+}

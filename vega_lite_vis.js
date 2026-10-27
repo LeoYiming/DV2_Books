@@ -37,3 +37,6 @@ var vg_8 = "js/bookstore_choropleth.vg.json";
 
 vegaEmbed("#chart8", vg_8).then(function(result) {
 }).catch(console.error);
+
+vegaEmbed("#chart9", "js/subject_slope.vg.json", { actions: true })
+  .catch(console.error);
