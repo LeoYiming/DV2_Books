@@ -96,6 +96,34 @@ body {
   align-items: center;
 }
 
+/* Chart headings */
+.chart-heading {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 16px;
+}
+
+.chart-label {
+  margin: 0 0 6px 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  color: #5f7f95;
+}
+
+.chart-heading h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #222222;
+}
+
+.chart-subtitle {
+  margin: 7px 0 0 0;
+  font-size: 14px;
+  color: #6d7880;
+}
+
 /* Sources */
 .source {
   width: 100%;
