@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": "Which States Have More Listed Bookstores?",
-    "subtitle": "Businesses listed as bookstores on Google Maps, reported in PNM 2022/2023"
+    "text": "Which States Have More Listed Bookstores Relative to Population?",
+    "subtitle": "Listed bookstores per 100,000 residents, using PNM bookstore records and DOSM 2022 population estimates"
   },
 
   "width": 700,
@@ -29,10 +29,24 @@
           "url": "data/bookstores_by_state.csv"
         },
         "key": "State",
-        "fields": [
-          "Bookstores"
-        ]
+        "fields": ["Bookstores"]
       }
+    },
+
+    {
+      "lookup": "properties.state",
+      "from": {
+        "data": {
+          "url": "data/population_state_2022.csv"
+        },
+        "key": "State",
+        "fields": ["Population_2022"]
+      }
+    },
+
+    {
+      "calculate": "datum.Bookstores / datum.Population_2022 * 100000",
+      "as": "Bookstores_per_100k"
     }
   ],
 
@@ -44,11 +58,19 @@
 
   "encoding": {
     "color": {
-      "field": "Bookstores",
+      "field": "Bookstores_per_100k",
       "type": "quantitative",
-      "title": "Listed Bookstores",
+      "title": "Bookstores per 100,000",
       "scale": {
-        "scheme": "blues"
+        "type": "threshold",
+        "domain": [2, 4, 6, 8 ],
+        "range": [
+          "#edf8f5",
+          "#b2e2e2",
+          "#66c2a4",
+          "#2ca25f",
+          "#006d2c"
+        ]
       }
     },
 
@@ -62,7 +84,30 @@
         "field": "Bookstores",
         "type": "quantitative",
         "title": "Listed Bookstores"
+      },
+      {
+        "field": "Population_2022",
+        "type": "quantitative",
+        "title": "Population (2022)",
+        "format": ","
+      },
+      {
+        "field": "Bookstores_per_100k",
+        "type": "quantitative",
+        "title": "Per 100,000 People",
+        "format": ".2f"
       }
     ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    }
   }
 }
