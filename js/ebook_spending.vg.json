@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-    "text": "How Much Do E-book Buyers Spend?",
-    "subtitle": "Share of e-book sales by transaction value, 2017-2022"
+    "text": "How Are E-book Transactions Distributed by Spending Range?",
+    "subtitle": "Share of e-book transactions by transaction value, 2017-2022"
   },
 
   "width": 600,
@@ -13,25 +13,43 @@
     "url": "data/ebook_spending.csv"
   },
 
-  "mark": "bar",
+  "transform": [
+    {
+      "calculate": "datum.Spending_Range === 'MYR1-MYR20' ? 1 : datum.Spending_Range === 'MYR20-MYR40' ? 2 : datum.Spending_Range === 'MYR40-MYR60' ? 3 : datum.Spending_Range === 'MYR60-MYR80' ? 4 : datum.Spending_Range === 'MYR80-MYR100' ? 5 : 6",
+      "as": "Sort_Order"
+    }
+  ],
+
+  "mark": {
+    "type": "bar"
+  },
 
   "encoding": {
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0
+      }
     },
 
     "y": {
       "field": "Percentage",
       "type": "quantitative",
-      "title": "Percentage of Transactions (%)",
-      "stack": "zero"
+      "title": "Share of Transactions",
+      "stack": "normalize",
+      "scale": {
+        "domain": [0, 1]
+      },
+      "axis": {
+        "format": "%"
+      }
     },
 
     "color": {
       "field": "Spending_Range",
-      "type": "nominal",
+      "type": "ordinal",
       "title": "Spending Range",
       "sort": [
         "MYR1-MYR20",
@@ -40,12 +58,15 @@
         "MYR60-MYR80",
         "MYR80-MYR100",
         "MYR100+"
-      ]
+      ],
+      "scale": {
+        "scheme": "viridis"
+      }
     },
 
     "order": {
-      "field": "Spending_Range",
-      "sort": "ascending"
+      "field": "Sort_Order",
+      "type": "quantitative"
     },
 
     "tooltip": [
@@ -56,15 +77,41 @@
       },
       {
         "field": "Spending_Range",
-        "type": "nominal",
+        "type": "ordinal",
         "title": "Transaction Value"
       },
       {
         "field": "Percentage",
         "type": "quantitative",
-        "title": "Share",
+        "title": "Reported Share (%)",
         "format": ".0f"
       }
     ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
   }
 }
