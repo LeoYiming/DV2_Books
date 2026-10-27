@@ -49,16 +49,6 @@
 
                 <div class="chart-content">
 
-                    <div class="chart-heading">
-                        <p class="chart-label">PUBLISHING OUTPUT</p>
-
-                        <h3>How Have Malaysia's Book Categories Changed?</h3>
-
-                        <p class="chart-subtitle">
-                            Number of titles collected by the National Library of Malaysia,
-                            2013-2022
-                        </p>
-                    </div>
 
                     <div id="chart1"></div>
 
@@ -130,6 +120,34 @@
                     </p>
 
                 </div>
+            </div>
+
+
+
+            <p class="transition-text">
+                The start-to-end comparison summarises the overall change, but annual
+                rankings show whether subjects consistently gained or lost prominence
+                throughout the decade.
+            </p>
+
+            <!-- Chart 10: Bump chart -->
+            <div class="chart-card">
+                <div class="chart-content">
+
+                    <div id="chart10"></div>
+
+                    <p class="source">
+                        Source: National Library of Malaysia,
+                        National Book Data Report 2022/2023
+                    </p>
+
+                </div>
+            </div>
+
+            <p class="transition-text">
+                Changes in publishing show what is being produced. The next question is
+                who engages with digital books and how these transactions are distributed.
+            </p>
 
 
         </section>
@@ -183,6 +201,12 @@
                 </div>
             </div>
 
+
+            <p class="transition-text">
+                Digital reading provides one route to books, but physical access still
+                depends on where bookstores are located.
+            </p>
+
         </section>
 
 
@@ -207,7 +231,7 @@
                     <div id="chart6"></div>
 
                     <p class="source">
-                        Source: OpenStreetMap contributors.
+                        Source: © OpenStreetMap contributors.
                         State boundaries: Department of Statistics Malaysia.
                     </p>
 
@@ -228,7 +252,7 @@
                     <div id="chart7"></div>
 
                     <p class="source">
-                        Source: OpenStreetMap contributors.
+                        Source: © OpenStreetMap contributors.
                         State boundaries: Department of Statistics Malaysia.
                     </p>
 
@@ -266,10 +290,120 @@
 
         </section>
 
+        <!-- Conclusion -->
+        <section class="story-section conclusion-section">
+
+            <p class="section-number">04</p>
+
+            <h2>What Does This Tell Us?</h2>
+
+            <p class="section-intro">
+                Malaysia's book landscape is changing across publishing, digital consumption and physical access. Together, these patterns connect changes in what is published, who engages with digital books and where physical bookstores are found.
+                
+            </p>
+
+            <div class="conclusion-grid">
+
+                <div class="conclusion-item">
+                    <h3>Publishing is changing</h3>
+                    <p>
+                        Book categories and subject areas have shifted over the past decade,
+                        while digital publishing has become a more visible part of total
+                        publication applications.
+                    </p>
+                </div>
+
+                <div class="conclusion-item">
+                    <h3>Digital activity is concentrated</h3>
+                    <p>
+                        Registered e-Sentral users are concentrated among younger adults,
+                        while lower-value transactions make up the largest share of
+                        e-book purchases.
+                    </p>
+                </div>
+
+                <div class="conclusion-item">
+                    <h3>Place still matters</h3>
+                    <p>
+                        Bookstore records cluster around major urban areas, while
+                        population-adjusted comparisons reveal a different pattern from
+                        raw bookstore totals alone.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Data Sources -->
+        <section class="references-section">
+
+            <h2>Data Sources</h2>
+
+            <div class="reference-item">
+                <h3>National Library of Malaysia</h3>
+                <p>
+                    <a href="https://www.pnm.gov.my/pnm/resources/pdf%20file/KAJIAN%20DATA%20PERBUKUAN_B.INGGERIS.pdf"
+                    target="_blank">
+                        National Book Data Report 2022/2023
+                    </a>.
+                    Used for book categories, ISBN and e-ISBN applications,
+                    publishing subject areas, e-Sentral user demographics,
+                    e-book transaction values and listed bookstore counts.
+                </p>
+            </div>
+
+            <div class="reference-item">
+                <h3>Department of Statistics Malaysia (DOSM)</h3>
+                <p>
+                    <a href="https://www.dosm.gov.my/portal-main/release-content/current-population-estimates-malaysia-2022"
+                    target="_blank">
+                        Current Population Estimates, Malaysia, 2022
+                    </a>.
+                    Used for state population data to calculate listed bookstores
+                    per 100,000 residents.
+                </p>
+            </div>
+
+            <div class="reference-item">
+                <h3>DOSM State Boundaries</h3>
+                <p>
+                    <a href="https://github.com/dosm-malaysia/data-open/blob/main/datasets/geodata/administrative_1_state.geojson"
+                    target="_blank">
+                        Administrative Level 1 State GeoJSON
+                    </a>.
+                    Used as the geographic boundary layer for Malaysian states.
+                </p>
+            </div>
+
+            <div class="reference-item">
+                <h3>OpenStreetMap Contributors</h3>
+                <p>
+                    <a href="https://www.openstreetmap.org/copyright"
+                    target="_blank">
+                        OpenStreetMap
+                    </a>.
+                    Bookstore point locations were used for the national dot map
+                    and Klang Valley concentration map.
+                </p>
+            </div>
+
+        </section>
+
 
         <!-- Footer -->
         <footer>
-            <p>FIT3179 Data Visualisation 2 · 2026</p>
+            <p>
+                Created by Yiming Xu · FIT3179 Data Visualisation 2 · 2026
+            </p>
+
+            <p>
+                AI acknowledgement: Generative AI (ChatGPT) was used to assist with
+                code debugging, language refinement and visualisation design feedback.
+                Final design decisions, implementation and interpretation were reviewed
+                by the author.
+            </p>
         </footer>
 
     </div>

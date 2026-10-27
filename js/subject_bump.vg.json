@@ -1,0 +1,292 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "How Did Subject Rankings Change Over Time?",
+    "subtitle": "Annual ranking of selected publishing subjects by number of titles, 2013-2022"
+  },
+
+  "width": 570,
+  "height": 380,
+
+  "data": {
+    "url": "data/subject_year.csv"
+  },
+
+  "transform": [
+    {
+      "calculate": "toNumber(datum.Titles)",
+      "as": "Titles_Num"
+    },
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "Rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "Titles_Num",
+          "order": "descending"
+        }
+      ],
+      "groupby": ["Year"]
+    }
+  ],
+
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.5
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "title": "Year",
+          "axis": {
+            "labelAngle": 0
+          }
+        },
+
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "title": "Rank (1 = highest)",
+          "scale": {
+            "domain": [1, 8],
+            "reverse": true
+          },
+          "axis": {
+            "tickMinStep": 1,
+            "tickCount": 8
+          }
+        },
+
+        "color": {
+          "field": "Subject",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Language",
+              "Literature",
+              "Religion",
+              "Education",
+              "Mathematics",
+              "Natural Science",
+              "Economy",
+              "Technology, Engineering, Industry"
+            ],
+            "range": [
+              "#4E79A7",
+              "#F28E2B",
+              "#B07AA1",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F",
+              "#D37295",
+              "#79706E"
+            ]
+          }
+        },
+
+        "detail": {
+          "field": "Subject"
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "Subject",
+            "type": "nominal",
+            "title": "Subject Area"
+          },
+          {
+            "field": "Rank",
+            "type": "quantitative",
+            "title": "Rank",
+            "format": ".0f"
+          },
+          {
+            "field": "Titles_Num",
+            "type": "quantitative",
+            "title": "Titles",
+            "format": ","
+          }
+        ]
+      }
+    },
+
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 55
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "scale": {
+            "domain": [1, 8],
+            "reverse": true
+          }
+        },
+
+        "color": {
+          "field": "Subject",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Language",
+              "Literature",
+              "Religion",
+              "Education",
+              "Mathematics",
+              "Natural Science",
+              "Economy",
+              "Technology, Engineering, Industry"
+            ],
+            "range": [
+              "#4E79A7",
+              "#F28E2B",
+              "#B07AA1",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F",
+              "#D37295",
+              "#79706E"
+            ]
+          }
+        },
+
+        "tooltip": [
+          {
+            "field": "Year",
+            "type": "ordinal",
+            "title": "Year"
+          },
+          {
+            "field": "Subject",
+            "type": "nominal",
+            "title": "Subject Area"
+          },
+          {
+            "field": "Rank",
+            "type": "quantitative",
+            "title": "Rank",
+            "format": ".0f"
+          },
+          {
+            "field": "Titles_Num",
+            "type": "quantitative",
+            "title": "Titles",
+            "format": ","
+          }
+        ]
+      }
+    },
+
+    {
+      "transform": [
+        {
+          "filter": "datum.Year == 2022"
+        }
+      ],
+
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 8,
+        "fontSize": 10,
+        "fontWeight": "bold"
+      },
+
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal"
+        },
+
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "scale": {
+            "domain": [1, 8],
+            "reverse": true
+          }
+        },
+
+        "text": {
+          "field": "Subject",
+          "type": "nominal"
+        },
+
+        "color": {
+          "field": "Subject",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Language",
+              "Literature",
+              "Religion",
+              "Education",
+              "Mathematics",
+              "Natural Science",
+              "Economy",
+              "Technology, Engineering, Industry"
+            ],
+            "range": [
+              "#4E79A7",
+              "#F28E2B",
+              "#B07AA1",
+              "#76B7B2",
+              "#EDC948",
+              "#9C755F",
+              "#D37295",
+              "#79706E"
+            ]
+          }
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "title": {
+      "font": "Arial",
+      "subtitleFont": "Arial"
+    }
+  }
+}
