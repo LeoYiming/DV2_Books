@@ -1,7 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
-
   "width": 650,
   "height": 350,
 
@@ -11,15 +10,21 @@
 
   "mark": {
     "type": "line",
-    "point": true,
-    "strokeWidth": 2
+    "point": {
+      "filled": true,
+      "size": 55
+    },
+    "strokeWidth": 2.5
   },
 
   "encoding": {
     "x": {
       "field": "Year",
       "type": "ordinal",
-      "title": "Year"
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0
+      }
     },
 
     "y": {
@@ -34,7 +39,19 @@
     "color": {
       "field": "Category",
       "type": "nominal",
-      "title": "Book Category"
+      "title": "Book Category",
+      "scale": {
+        "domain": [
+          "Adult Books",
+          "Children's Books",
+          "Textbooks"
+        ],
+        "range": [
+          "#6C5B7B",
+          "#D89B45",
+          "#3F8C8E"
+        ]
+      }
     },
 
     "tooltip": [
@@ -55,5 +72,26 @@
         "format": ","
       }
     ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelColor": "#424B52",
+      "titleColor": "#424B52",
+      "gridColor": "#E5E9EC",
+      "domainColor": "#A8B0B5",
+      "tickColor": "#A8B0B5"
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    }
   }
 }
